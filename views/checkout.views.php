@@ -286,7 +286,7 @@ include "header.php";
                         <label class="form-check-label" for="flexRadioDefault1">paypal</label>
                     </div>
                     <div class="col">
-                    <input class="form-check-input" type="checkbox" value='1' id="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value='true' id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
                         facturacion
                     </label>

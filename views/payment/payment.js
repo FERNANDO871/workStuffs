@@ -11,7 +11,7 @@ peticion={
   "metodoPago":"card",
   "folio":document.querySelector("#folio").value,
   "monto": document.querySelector("#monto").value,
-  "facturacion":'2',
+  "facturacion":false,
 };
 
 
@@ -42,7 +42,7 @@ document.querySelector("#payment-form").addEventListener("submit", handleSubmit)
 
 // setear la variable para saber si el cliente quiere o no facturacion
 document.querySelector('#flexCheckDefault').addEventListener('click',()=>{
-  peticion['facturacion']=peticion['facturacion']==1 ? 2: 1;
+  peticion['facturacion']=peticion['facturacion'] ? false: true;
   console.log(peticion['facturacion']);
 });
 
