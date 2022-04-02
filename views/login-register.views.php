@@ -57,7 +57,7 @@ include "header.php";
  
                                     <div class="col-md-4">
                                         <div class="forgotton-password_info">
-                                            <a href="#"> Contraseña olvidada?</a>
+                                            <a href="procesos/emailPHP/enviarEmail.php"> Contraseña olvidada?</a>
                                         </div>
                                     </div>
                                     
