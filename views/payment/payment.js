@@ -17,7 +17,7 @@ peticion={
 
 
 // path para pasarle a la funcion de confirmar pago de Stripe con las variables nesesarias por metodo GET
-var path = "http://localhost:/tiendaweb/views/payment/completed_payment.php?"
+var path = "http://localhost/tiendaweb/workStuffs/views/payment/completed_payment.php?"
 +"id_pedido="+peticion["folio"]
 
 //aqui se pueden crear mas variables
@@ -170,14 +170,15 @@ paypal.Buttons({
   
 
 // funcion para llamar el id del pago que se creo en el documento payment.php ------------------------------------------
+
 async function initialize() {
 
   
-      showMessage("");
+ 
   
-
+    setLoading(true);
     //hacer la conexion con al archivo php
-    $.post('http://localhost/tiendaweb/views/payment/payment.php',peticion,
+    const resultado = await $.post('http://localhost/tiendaweb/workStuffs/views/payment/payment.php',peticion,
         function(data){ 
               
               var crear = JSON.parse(data);
@@ -189,8 +190,7 @@ async function initialize() {
               paymentElement.mount("#payment-element");
 
         });
-
-           
+      setLoading(false);         
         
 }
 // funcion para llamar el id del pago que se creo en el documento payment.php -----------------------------------------
@@ -274,14 +274,13 @@ async function initialize() {
 
 
 
-
                 
 //// animaciones para que se vea bonito -------------------------------------------------------------------------------- 
         function showMessage(messageText) {
           setLoading(true);
-        const messageContainer = document.querySelector("#payment-element");
-      
+        const messageContainer = document.querySelector("#mensaje");
         messageContainer.classList.add("hidden");
+        
         messageContainer.textContent = messageText;
       
         setTimeout(function () {
@@ -298,10 +297,12 @@ async function initialize() {
           document.querySelector("#submit").disabled = true;
           document.querySelector("#spinner").classList.remove("hidden");
           document.querySelector("#button-text").classList.add("hidden");
+          document.querySelector("#payment-element").classList.add("hidden");
         } else {
           document.querySelector("#submit").disabled = false;
           document.querySelector("#spinner").classList.add("hidden");
           document.querySelector("#button-text").classList.remove("hidden");
+          document.querySelector("#payment-element").classList.remove("hidden");
         }
       }
 //// animaciones para que se vea bonito -------------------------------------------------------------------------------- 

@@ -304,6 +304,7 @@ include "header.php";
                 <span id="button-text">Pay now</span>
             </button>
             <div id="payment-message" class="hidden"></div>
+            <div id="mensaje" ></div>
         </form>
         <!-- api de stripe                          -->  
         <!-- paypal form   -->

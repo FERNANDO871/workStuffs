@@ -78,7 +78,12 @@
 /* pago exitoso */
 .successful{
   color: #fff;
-  background-color: #059936;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg,
+             rgba(2,0,36,1) 0%,
+             rgba(135,1,4,1) 32%, 
+             rgba(185,1,156,1) 68%,
+             rgba(0,212,255,1) 100%);
   display: inline-block;
   margin: 20px;
   padding: 20px;
