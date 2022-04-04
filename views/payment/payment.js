@@ -17,7 +17,7 @@ peticion={
 
 
 // path para pasarle a la funcion de confirmar pago de Stripe con las variables nesesarias por metodo GET
-var path = "http://localhost/tiendaweb/workStuffs/views/payment/completed_payment.php?"
+var path = "http://localhost/tiendaweb/views/payment/completed_payment.php?"
 +"id_pedido="+peticion["folio"]
 
 //aqui se pueden crear mas variables
@@ -178,7 +178,7 @@ async function initialize() {
   
     setLoading(true);
     //hacer la conexion con al archivo php
-    const resultado = await $.post('http://localhost/tiendaweb/workStuffs/views/payment/payment.php',peticion,
+    const resultado = await $.post('http://localhost/tiendaweb/views/payment/payment.php',peticion,
         function(data){ 
               
               var crear = JSON.parse(data);

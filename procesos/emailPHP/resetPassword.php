@@ -1,3 +1,50 @@
+<?php
+
+use Stripe\Token;
+
+require '../conexion.php';
+
+
+if(isset($_GET['token'])){
+
+    $query = 'SELECT tokenPassword FROM cliente where tokenPassword = "'.$_GET['token'].'"';
+    $consulta = mysqli_query($data,$query);
+    $token = mysqli_fetch_array($consulta);
+    // echo $token;
+
+}else{
+    $Error='token';
+}
+
+
+
+if (isset($_POST['password']) && isset($_POST['password']) ){
+// echo $_GET['token'];
+// echo '<br>';
+    if($_POST['password']!='' && $_POST['password1']!='' ){
+        echo 'adentro';
+        echo '<br>';
+        if($_POST['password'] == $_POST['password1']){
+            $query ='UPDATE cliente SET pass = "'.$_POST['password'].'" WHERE tokenPassword="'. $_GET['token']. '"';
+            mysqli_query($data,$query);
+            $query ='UPDATE cliente SET tokenPassword = null WHERE tokenPassword="'. $_GET['token']. '"';
+            mysqli_query($data,$query);
+            header('location:http://localhost/tiendaweb/login-register.php ');
+            // echo $query;
+            // echo '<br>';
+            // echo 'Password update';
+        }else{$Error = 'math';}
+        
+    }
+}
+
+
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,28 +68,37 @@
 
         <div class="contact-wrapper animated bounceInUp">
             <div class="contact-form">
-                <h3>Reset password</h3>
-                <form action="">
+                <h3>Reset password <?php echo $_GET['email']?></h3>
+                
+
+            <?PHP if($token != null) { ?>
+                <form  method="POST">
                     <p>
                         <label>type password</label>
-                        <input type="text" name="fullname">
+                        <input type="password" name="password">
                     </p>
                     <p>
                         <label>please type password agian</label>
-                        <input type="email" name="email">
+                        <input type="password" name="password1">
                     </p>
                     <p>
                     <p class="block">
                         <button type="submit" >Send</button>
                     </p>
                 </form>
+             <?PHP }else{ ?>
+             <?PHP echo $Error; ?>
+
+                <h1 class="text-warning font-italic">token does not exist</h1>
+
+             <?PHP } ?> 
             </div>
             <div class="contact-info">
                 <h4>More Info</h4>
                 <ul>
-                    <li><i class="fas fa-map-marker-alt"></i> Baker Street</li>
+                    <li><i class="fas fa-map-marker-alt"></i> descartes 466-a, villa universidad</li>
                     <li><i class="fas fa-phone"></i> (111) 111 111 111</li>
-                    <li><i class="fas fa-envelope-open-text"></i> contact@website.com</li>
+                    <li><i class="fas fa-envelope-open-text"></i> ingenieria@ozonoterapiamexico.com</li>
                 </ul>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero provident ipsam necessitatibus repellendus?</p>
                 <p>Company.com</p>
@@ -50,6 +106,5 @@
         </div>
 
     </div>
-
 </body>
 </html>
