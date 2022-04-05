@@ -211,7 +211,33 @@ include "header.php";
                                 </table>
                             </div>
         <!-- aqui se inserta los valores de envia ya que regresa la api -->
-        <div id="enviaYA"></div>
+        <div id="enviaYA" class="hidden">
+        <table class="table">
+        <thead>
+                    <tr>
+                        <th class="cart-product-name">Package</th>
+                        <th class="cart-product-total">Total shipment</th>
+                        <th class="cart-product-total">delivery date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="cart_item" id="fedex">
+                        <td class="cart-product-name"><img class="enviaYaImagen" > </td>
+                        <td class="cart-product-total"><span class="amount preciosEnviaYA"></span></td>
+                        <td class="cart-product-total"><span class="amount dateEnviaYA"></span></td>
+                        <td class="cart-product-total"><input class="form-check-input" type="radio" value="fedex" name="paqueteria[paqueteria]"> </td>
+
+                    </tr>
+                    <tr class="cart_item" id="ups">
+                        <td class="cart-product-name"><img class="enviaYaImagen" alt=""> </td>
+                        <td class="cart-product-total"><span class="amount preciosEnviaYA"></span></td>
+                        <td class="cart-product-total"><span class="amount dateEnviaYA"></span></td>
+                        <td class="cart-product-total"><input class="form-check-input" type="radio" value="ups" name="paqueteria[paqueteria]"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <P class="shipmentMessegue amount card-product-total"> up to 900 MXN the shipment is free!</P>
+        </div>
         <!-- aqui se inserta los valores de envia ya que regresa la api -->
                             <div class="payment-method">
                                 <div class="payment-accordion">

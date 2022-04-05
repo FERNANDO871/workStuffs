@@ -11,7 +11,8 @@ peticion={
   "metodoPago":"card",
   "folio":document.querySelector("#folio").value,
   "monto": document.querySelector("#monto").value,
-  "facturacion":false,
+  "facturacion":0,
+  "paqueteria":'ups',
 };
 
 
@@ -42,7 +43,7 @@ document.querySelector("#payment-form").addEventListener("submit", handleSubmit)
 
 // setear la variable para saber si el cliente quiere o no facturacion
 document.querySelector('#flexCheckDefault').addEventListener('click',()=>{
-  peticion['facturacion']=peticion['facturacion'] ? false: true;
+  peticion['facturacion']=peticion['facturacion']==0 ? 1: 0;
   console.log(peticion['facturacion']);
 });
 
@@ -77,9 +78,16 @@ function mostrarPago(e){
 // generar el pago-------------------------------------------------------------------
     
     
-    
-    
-    
+
+const paqueteria = document.querySelectorAll('input[name="paqueteria[paqueteria]"]');
+console.log(paqueteria);
+paqueteria.forEach(input => input.addEventListener('click',(e)=>{
+  peticion['paqueteria']=e.target.value;
+  console.log(peticion['paqueteria']);
+}));
+
+
+
     
     
     
@@ -221,6 +229,7 @@ async function initialize() {
             path
             +"&facturacion="+peticion["facturacion"]
             +"&metodoPago="+peticion["metodoPago"]
+            +"&paqueteria="+peticion["paqueteria"]
             ,},
         });
       
