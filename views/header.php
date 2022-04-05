@@ -350,13 +350,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                             <li class="minicart-wrap" id="notificador">
                                                 <a href="#miniCart" class="minicart-btn toolbar-btn">
                                                     <div class="minicart-count_area">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="28" height="28" viewBox="0 0 24 24" stroke-width="0.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                    <circle cx="6" cy="19" r="2" />
-                                                    <circle cx="17" cy="19" r="2" />
-                                                    <path d="M17 17h-11v-14h-2" />
-                                                    <path d="M6 5l14 1l-1 7h-13" />
-                                                    </svg>
+                                                        <i class="lastudioicon-bag-20"></i>
                                                         <?php echo $Noti ?>
                                                     </div>
                                                 </a>
@@ -379,15 +373,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                             <li class="menu-wrap">
                                                 <a href="#offcanvasMenu" class="menu-btn toolbar-btn d-none d-xl-block">
                                                     <div class="minicart-count_area">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-list" width="28" height="28" viewBox="0 0 24 24" stroke-width="0.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                    <line x1="9" y1="6" x2="20" y2="6" />
-                                                    <line x1="9" y1="12" x2="20" y2="12" />
-                                                    <line x1="9" y1="18" x2="20" y2="18" />
-                                                    <line x1="5" y1="6" x2="5" y2="6.01" />
-                                                    <line x1="5" y1="12" x2="5" y2="12.01" />
-                                                    <line x1="5" y1="18" x2="5" y2="18.01" />
-                                                    </svg>
+                                                        <i class="lastudioicon-menu-4-1"></i>
                                                     </div>
                                                 </a>
                                             </li>
@@ -1054,14 +1040,6 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                             </li>
                             <li>
                                 <a href="javascript:void(0)">Blog</a>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="28" height="28" viewBox="0 0 24 24" stroke-width="0.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                                <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                                <line x1="3" y1="6" x2="3" y2="19" />
-                                <line x1="12" y1="6" x2="12" y2="19" />
-                                <line x1="21" y1="6" x2="21" y2="19" />
-                                </svg>
                             </li>
                             <li>
                                 <a href="javascript:void(0)">New Look</a>
