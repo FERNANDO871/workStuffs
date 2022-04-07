@@ -124,7 +124,7 @@ a {
 }
 
 a:hover:hover {
-  color: #55bfb0;
+  color: #dd6b33;
 }
 
 a,
@@ -1720,7 +1720,7 @@ i, input[type="checkbox"] + label:before, input[type="checkbox"] + label:after, 
 .yena-btn {
   -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0);
           box-shadow: 0px 8px 15px rgba(0, 0, 0, 0);
-  background-color: #55bfb0;
+  background-color: #211e1c;
   color: #ffffff !important;
   width: 175px;
   height: 45px;
@@ -7454,8 +7454,7 @@ i, input[type="checkbox"] + label:before, input[type="checkbox"] + label:after, 
 /*  20 - Components - Breadcrumb
 /*----------------------------------------*/
 .breadcrumb-area {
-/*  background-image: url("../images/breadcrumb/1.jpg"); */
-  background-color: #eeeeee;  
+  background-image: url("../images/breadcrumb/1.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

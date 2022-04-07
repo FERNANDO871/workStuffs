@@ -1,23 +1,10 @@
 <!doctype html>
-
-<style type="text/css">
-    .ub1
-    {
-    text-align:left;
-    font-weight: ;
-    margin-bottom:0.5em;
-    margin-top:0.5em;
-    }
-</style>
-
-
 <html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Login & Register || Ozzonium</title>
-    <script src="jquery-3.2.1.min.js"></script>
+    <title>Login & Register || Yena</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -47,40 +34,10 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!-- Light Gallery -->
     <link rel="stylesheet" href="assets/css/lightgallery.min.css">
-    <!-- Css for Log/In -->
-    <link rel="stylesheet" type="text/css" href="includes/estilos-password.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
-
-    <script src="jquery-3.2.1.min.js"></script>
-    
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-     <script  src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-     <script src="bootstrap-show-password.min.js"></script>
-     
-    <?php 
-    session_start();
-if(isset($_SESSION["admin_name"]))
-{
- header("location:home.php");
-}
-$connect = mysqli_connect("localhost", "root", "", "tienda");  
-if(isset($_POST["login"]))   
-{  
- if(!empty($_POST["member_name"]) && !empty($_POST["member_password"]))
- {
-    ?>
-
 
 </head>
 
@@ -1025,147 +982,78 @@ if(isset($_POST["login"]))
         <div class="breadcrumb-area ">
             <div class="container-fluid h-100">
                 <div class="breadcrumb-content h-100">
-                    <h2 class="text-capitalize mb-0">Acceso & Registro</h2>
+                    <h2 class="text-capitalize mb-0">Login & Register</h2>
                     <ul>
-                        <li><a href="index.html"></a></li>
-                        <li class="active"></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">Login & Register</li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- Yena's Breadcrumb Area End Here -->
 
-
         <!-- Begin Login Register Area -->
         <div class="login-register_area">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6">
-                        <form id="frmlog" method="POST" action="manejador.php" >
+                        <form action="#">
                             <div class="login-form">
-                                <h4 class="login-title">Acceso</h4>
+                                <h4 class="login-title">Login</h4>
                                 <div class="row">
                                     <div class="col-md-12 col-12">
-                                        <label>Dirección de correo</label>
-                                        <input type="email" placeholder="Correo" 
-                                        name="email" id="email" required>
+                                        <label>Email Address*</label>
+                                        <input type="email" placeholder="Email Address">
                                     </div>
                                     <div class="col-12 mb--20">
-                                        <label>Contraseña</label>
-                                        <input type="password" class="form-control" 
-                                        placeholder="Contraseña" id="txtpassword" 
-                                        name="txtpassword" required>
-
-                                        <div class="form-group">
-                                        <input id="verPassword" type="checkbox" onclick="showPassword();">
-                                        <label for="verPassword">Ver Contraseña</label>  
-                                        </div>
+                                        <label>Password</label>
+                                        <input type="password" placeholder="Password">
                                     </div>
-                                    <script type="text/javascript">
-                                        function showPassword(){
-                                            var txtpassword=document.getElementById('txtpassword');
-                                            if(txtpassword.type=='password')
-                                            {
-                                                txtpassword.type='text';
-                                            }
-                                            else{
-                                                txtpassword.type='password';
-                                            }
-                                        }
-                                    </script>
-
- 
-                                      
-                               
                                     <div class="col-md-8">
                                         <div class="check-box">
-                                            <input type="checkbox" id="remember_me" name="remember_me" onclick="setcookie()">
-                                            <label for="remember_me">Recordar Cuenta</label>
+                                            <input type="checkbox" id="remember_me">
+                                            <label for="remember_me">Remember me</label>
                                         </div>
                                     </div>
-
-                                    <script type="text/javascript">
-                                        function setcookie(){
-                                            var e =document.getElementById('email').value;
-                                        var p =document.getElementById('txtpassword').value;
-
-                                document.cookie="email="+u+";path=http://localhost/yena/";
-                            document.cookie="txtpassword="+p+";path=http://localhost/yena/";
-                                        }
-                                    </script>
-
                                     <div class="col-md-4">
                                         <div class="forgotton-password_info">
-                                            <a href="#"> Contraseña olvidada?</a>
+                                            <a href="#"> Forgotten pasward?</a>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <button class="login_btn" name="loginbtn" 
-                                        id="loginbtn">Acceso</button>
+                                        <button class="login_btn">Login</button>
                                     </div>
                                 </div>
                             </div>
                         </form>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
-                       <form id="frmajax" action="" method="POST">
+                        <form action="#">
                             <div class="login-form">
-                                <h4 class="login-title">Registro de Clientes</h4>
+                                <h4 class="login-title">Register</h4>
                                 <div class="row">
                                     <div class="col-md-6 col-12 mb--20">
-                                        <label>Nombre</label>
-                                        <input type="text" placeholder="Nombre" name="name" id="name" required autofocus>
+                                        <label>First Name</label>
+                                        <input type="text" placeholder="First Name">
                                     </div>
                                     <div class="col-md-6 col-12 mb--20">
-                                        <label>Apellidos</label>
-                                     <input type="text" placeholder="Apellidos" 
-                                     name="lastname" id="lastname" required>
+                                        <label>Last Name</label>
+                                        <input type="text" placeholder="Last Name">
                                     </div>
                                     <div class="col-md-12">
-                                        <label>Correo</label>
-                                        <input type="email" placeholder="Correo" 
-                                        name="email" id="email" required>
-                                    </div>
-                                
-                                    <div class="col-md-6">
-                                        <label>Contraseña</label>
-                                        <input type="text" placeholder="Contraseña" 
-                                        name="pass" id="pass" required>
+                                        <label>Email Address*</label>
+                                        <input type="email" placeholder="Email Address">
                                     </div>
                                     <div class="col-md-6">
-                                        <label>Confirmar Contraseña</label>
-                                        <input type="text" placeholder="Confirmar Contraseña" 
-                                        name="veopass" id="veopass" autofocus required>
-
-                                       <!--  <div class="form-group">
-                                        <input id="sawpassword" type="checkbox" id="pass" 
-                                        onclick="seePassword();">
-                                        <label for="sawpassword">Ver Contraseñas</label>
-                                        </div>-->
+                                        <label>Password</label>
+                                        <input type="password" placeholder="Password">
                                     </div>
-
-
-                                      <script type="text/javascript">
-                                        function seePassword(){
-                                            var pass=document.getElementById('pass');
-                                            var veopass=document.getElementById('veopass');
-                                            if(pass.type=='password') &&
-                                                (veopass.type=='password')
-                                            {
-                                                pass.type='text';
-                                                veopass.type='text';
-                                            }
-                                            else{
-                                                pass.type='password';
-                                                veopass.type='password';
-                                            }
-                                        }
-                                    </script>
-
-
+                                    <div class="col-md-6">
+                                        <label>Confirm Password</label>
+                                        <input type="password" placeholder="Confirm Password">
+                                    </div>
                                     <div class="col-12">
-                                        <button class="register_btn" name="registerbtn" 
-                                        id="registerbtn">Registrar</button>
+                                        <button class="register_btn">Register</button>
                                     </div>
                                 </div>
                             </div>
@@ -1175,53 +1063,6 @@ if(isset($_POST["login"]))
             </div>
         </div>
         <!-- Login Register Area  End Here -->
-
-    <!-- Log in por AJAX -->
-    <script type="text/javascript">
-    $(document).ready(function(){
-        $('#loginbtn').click(function(){
-            var datos=$('#frmlog').serialize();
-            $.ajax({
-                type:"POST",
-                url:"manejador.php",
-                data:datos
-            })
-                .done(function(r){
-                    if(r==1){
-                        swal('Inicio de sesion con exito.','sucess');
-                    }else{
-                        swal('ERROR','Usuario Incorrecto.','error');
-                    }
-                });
-            });
-    });
- </script>
-
-
-    <!-- Regitrar usuario por AJAX -->
-    <script type="text/javascript">
-    $(document).ready(function(){
-        $('#registerbtn').click(function(){
-            var datos=$('#frmajax').serialize();
-            $.ajax({
-                type:"POST",
-                url:"insertar.php",
-                data:datos
-            })
-               .done(function(r){
-                    if(r==1){
-                        swal('Registro de usuario con exito.','sucess');
-                    }else{
-                        swal('ERROR','Verificar los campos.','error');
-                    }
-                }); 
-            }); 
-    });
-</script>
-
-
-
-
 
         <!-- Begin Footer Area -->
         <div class="footer-area border-top">
@@ -1460,10 +1301,6 @@ if(isset($_POST["login"]))
     <script src="assets/js/main.js"></script>
     <!-- <script src="assets/js/main.min.js"></script> -->
 
-       
-
 </body>
 
 </html>
-
-  

@@ -38,8 +38,6 @@
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
-    <!-- agregar los estylos de pago -->
-    <link rel="stylesheet" href="payment/payment.css">
 
 </head>
 
@@ -1038,14 +1036,6 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-12">
-
-
-
-
-
-
-
-
                         <form action="javascript:void(0)">
                             <div class="checkbox-form">
                                 <h3>Billing Details</h3>
@@ -1118,8 +1108,8 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="checkout-form-list">
-                                            <label>Phone123 <span class="required">*</span></label>
-                                            <input id="telefono"type="text">
+                                            <label>Phone <span class="required">*</span></label>
+                                            <input type="text">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -1132,17 +1122,6 @@
                                     <input type="checkbox" id="remember_me">
                                     <label for="remember_me">Remember me</label>
                                 </div> -->
-
-
-
-
-
-
-
-
-
-
-
 
                                         <div id="cbox-info" class="checkout-form-list create-account">
                                             <p>Create an account by entering the information below. If you are a returning
@@ -1228,8 +1207,8 @@
                                         </div>
                                         <div class="col-md-12">
                                             <div class="checkout-form-list">
-                                                <label>phone <span class="required">*</span></label>
-                                                <input  type="text">
+                                                <label>Phone <span class="required">*</span></label>
+                                                <input type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -1333,18 +1312,9 @@
                                             </div>
                                         </div>
                                     </div>
-           <!-- api de stripe                          -->
-           <form id="payment-form">
-            <div id="payment-element">
-              <!--Stripe.js injects the Payment Element-->
-            </div>
-            <button id="submit">
-              <div class="spinner hidden" id="spinner"></div>
-              <span id="button-text">Pay now</span>
-            </button>
-            <div id="payment-message" class="hidden"></div>
-          </form>
-           <!-- api de stripe                          -->                    
+                                    <div class="order-button-payment">
+                                        <input value="Place order" type="submit">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1590,12 +1560,6 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
     <!-- <script src="assets/js/main.min.js"></script> -->
-
-    <!-- agregar el libreria javaScript de stripe -->
-    <script src="https://js.stripe.com/v3/"></script>
-
-    <!-- agregar el javaScript del pago -->
-    <script src="payment/payment.js"></script>
 
 </body>
 
