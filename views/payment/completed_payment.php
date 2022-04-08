@@ -11,11 +11,18 @@ $idcliente = $_SESSION['id'];
 
 //obtener el falio del pedido
 $folioPedido= $_GET['id_pedido']?? '1401';
+$facturacion= $_GET['facturacion']?? 0;
+$paqueteria= $_GET['paqueteria'] ?? 'UPS';
+
 
 
 //actualizar el estadus a 2 con el id del cliente --------------------------------------------
 $query = "UPDATE carrito SET Estatus=2 WHERE pedido='$folioPedido'";
 $consulta = mysqli_query($data, $query);
+$query1 = "UPDATE pedido SET facturacion= $facturacion WHERE folio='$folioPedido' ";
+$consulta = mysqli_query($data, $query1);
+$query2 = "UPDATE pedido SET paqueteria='$paqueteria' WHERE folio='$folioPedido'";
+$consulta = mysqli_query($data, $query2);
 //actualizar el estadus a 2 con el id del cliente------------------------------------------
 
 ?>
@@ -37,6 +44,7 @@ $consulta = mysqli_query($data, $query);
         <br>folio : <?php echo $_GET['folio']??'1401'?></br>
         <br> facturacion:  <?php echo $_GET['facturacion']??'true'?></br>
         <br>metodo de pago: <?php echo $_GET['metodoPago']??'card'?></br>
+        <br>paqueteria: <?php echo $_GET['paqueteria']??'card'?></br>
     </h1>
 </div>
 </body>
@@ -45,6 +53,6 @@ $consulta = mysqli_query($data, $query);
 
 <?php  
 
-    // header("location :http://localhost/tiendaweb/index.php");
+    header("location: http://localhost/tiendaweb/");
 
 ?>

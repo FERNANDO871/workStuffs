@@ -97,33 +97,23 @@ function registra(){
             document.createElement('LI');
 
 
-            const precios = document.querySelector('#enviaYA');
+            
 
-            precios.innerHTML =`
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th class="cart-product-name">Package</th>
-                        <th class="cart-product-total">Total shipment</th>
-                        <th class="cart-product-total">delivery date</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="cart_item">
-                        <td class="cart-product-name"><img class="enviaYaImagen" src="${fedex2['carrier_logo_url']}""> </td>
-                        <td class="cart-product-total"><span class="amount">${fedex2['currency']} ${fedex2['total_amount']}</span></td>
-                        <td class="cart-product-total"><span class="amount">${fedex2['date']}</span></td>
+            const imagenes = document.querySelectorAll('.enviaYaImagen');
+            imagenes[0].src=fedex2['carrier_logo_url'];
+            imagenes[1].src=ups2['carrier_logo_url'];
 
-                    </tr>
-                    <tr class="cart_item">
-                        <td class="cart-product-name"><img class="enviaYaImagen" src="${ups2['carrier_logo_url']}" alt=""> </td>
-                        <td class="cart-product-total"><span class="amount">${ups2['currency']} ${ups2['total_amount']}</span></td>
-                        <td class="cart-product-total"><span class="amount">${ups2['date']}</span></td>
-                    </tr>
-                </tbody>
-            </table>
-            <P class="shipmentMessegue amount card-product-total"> up to 900 MXN the shipment is free!</P>
-            `
+            const precios = document.querySelectorAll('.preciosEnviaYA');
+            precios[0].textContent=fedex2['currency']+'  '+fedex2['total_amount'];
+            precios[1].textContent=ups2['currency']+ '  ' + ups2['total_amount'];
+           
+            const date = document.querySelectorAll('.dateEnviaYA');
+            date[0].textContent=fedex2['date'];
+            date[1].textContent=ups2['date'];
+
+            const precio = document.querySelector('#enviaYA');
+            
+            precio.classList.remove('hidden');
 
     });
 

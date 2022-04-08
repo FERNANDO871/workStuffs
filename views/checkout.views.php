@@ -222,7 +222,33 @@ include "header.php";
                                 </table>
                             </div>
         <!-- aqui se inserta los valores de envia ya que regresa la api -->
-        <div id="enviaYA"></div>
+        <div id="enviaYA" class="hidden">
+        <table class="table">
+        <thead>
+                    <tr>
+                        <th class="cart-product-name">Package</th>
+                        <th class="cart-product-total">Total shipment</th>
+                        <th class="cart-product-total">delivery date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="cart_item" id="fedex">
+                        <td class="cart-product-name"><img class="enviaYaImagen" > </td>
+                        <td class="cart-product-total"><span class="amount preciosEnviaYA"></span></td>
+                        <td class="cart-product-total"><span class="amount dateEnviaYA"></span></td>
+                        <td class="cart-product-total"><input class="form-check-input" type="radio" value="fedex" name="paqueteria[paqueteria]"> </td>
+
+                    </tr>
+                    <tr class="cart_item" id="ups">
+                        <td class="cart-product-name"><img class="enviaYaImagen" alt=""> </td>
+                        <td class="cart-product-total"><span class="amount preciosEnviaYA"></span></td>
+                        <td class="cart-product-total"><span class="amount dateEnviaYA"></span></td>
+                        <td class="cart-product-total"><input class="form-check-input" type="radio" value="ups" name="paqueteria[paqueteria]"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <P class="shipmentMessegue amount card-product-total"> up to 900 MXN the shipment is free!</P>
+        </div>
         <!-- aqui se inserta los valores de envia ya que regresa la api -->
                             <div class="payment-method">
                                 <div class="payment-accordion">
@@ -280,30 +306,38 @@ include "header.php";
                                         </div>
                                     </div>
 <!-- eleccion de metodo de pago --> 
- <p class="p-3 mb-2 bg-dark text-white text-right" >payment</p>
-    <div class="container text-center">
-                    <div class="row">
-                    <div class="col">
-
-                        <input class="form-check-input" type="radio" value="oxxo" name="pago[pago]">
-                        <label class="form-check-label" for="flexRadioDefault1">oxxo</label> 
-                    </div>
-                    <div class="col">
-                        <input class="form-check-input" type="radio" value="card" name="pago[pago]">
-                        <label class="form-check-label" for="flexRadioDefault1">card</label>
-                    </div>
-                    <div class="col">
-                        <input class="form-check-input" type="radio" value="paypal" name="pago[pago]">
-                        <label class="form-check-label" for="flexRadioDefault1">paypal</label>
-                    </div>
-                    <div class="col">
-                    <input class="form-check-input" type="checkbox" value='1' id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                        facturacion
-                    </label>
-                    </div>
-                </div>
+<p class="p-3 mb-2 bg-dark text-white text-right" >payment</p>
+<div class="container">
+  <div class="row">
+    <div class="col">
+                        <h6 class="shipmentMessegue amount card-product-total">if you need invoice please fill the form on 
+                        <a href="http://localhost/tiendaweb/my-account.php">my account</a> </h6>
     </div>
+    <div class="col col-4">
+                       <input class="form-check-input" type="checkbox" value='true' id="flexCheckDefault">
+                        <label class="form-check-label shipmentMessegue" for="flexCheckDefault">
+                            do you need invoice?
+                        </label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+ 
+                    <input class="form-check-input" type="radio" value="oxxo" name="pago[pago]">
+                    <label class="form-check-label" for="flexRadioDefault1">oxxo</label> 
+    </div>
+    <div class="col">
+                    <input class="form-check-input" type="radio" value="card" name="pago[pago]">
+                    <label class="form-check-label" for="flexRadioDefault1">card</label>
+    </div>
+    <div class="col">
+                    <input class="form-check-input" type="radio" value="paypal" name="pago[pago]">
+                    <label class="form-check-label" for="flexRadioDefault1">paypal</label>
+    </div>
+  </div>
+</div>
+<div class="container">
+
 
      <!-- api de stripe                          -->
      <form id="payment-form" >
@@ -315,11 +349,15 @@ include "header.php";
                 <span id="button-text">Pay now</span>
             </button>
             <div id="payment-message" class="hidden"></div>
+            <div id="mensaje" ></div>
         </form>
         <!-- api de stripe                          -->  
         <!-- paypal form   -->
         <div class="hidden" id="paypal1417" ></div>
     <!-- paypal form   -->
+
+
+                    
                                   
                                 </div>
                             </div>

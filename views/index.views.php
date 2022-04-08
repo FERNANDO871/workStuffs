@@ -121,8 +121,8 @@ include "header.php";
                                                 <div class="single-product">
                                                     <div class="product-img">
                                                         <a href="single-product.html">
-                                                            <img class="primary-img" src="assets/images/product/medium-size/<?php echo $mostrar_pac[8]; ?>" alt="Yena's Product Image">
-                                                            <img class="secondary-img" src="assets/images/product/medium-size/<?php echo $mostrar_pac[9]; ?>" alt="Yena's Product Image">
+                                                            <img class="primary-img" src="assets/images/product/medium-size/4-1.jpg<?php //echo $mostrar_pac[8]; ?>" alt="Yena's Product Image">
+                                                            <img class="secondary-img" src="assets/images/product/medium-size/2-1.jpg<?php //echo $mostrar_pac[9]; ?>" alt="Yena's Product Image">
                                                         </a>
                                                         <div class="add-actions">
                                                             <ul>
