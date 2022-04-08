@@ -2,10 +2,6 @@
 const stripe = Stripe("pk_test_51Kb6O2Cuu9QiirsWFCOOAIhyPiMRouhxrSUVNntXt5JrYXtW9U94rIhDHruzdy0MiNINvbwIoY8ojIzmmcvpYepL00ZhWHzJH3");
 
 
-
-
-
-
 // objeto para enviar payment.php y pueda general el objeto pago de Stripe correctamente
 peticion={
   "metodoPago":"card",
@@ -14,7 +10,6 @@ peticion={
   "facturacion":0,
   "paqueteria":'ups',
 };
-
 
 
 // path para pasarle a la funcion de confirmar pago de Stripe con las variables nesesarias por metodo GET
@@ -32,20 +27,24 @@ let elements;
 document.querySelector("#payment-form").addEventListener("submit", handleSubmit);
 
 
-
-
-
-
-
-
-
-
-
 // setear la variable para saber si el cliente quiere o no facturacion
 document.querySelector('#flexCheckDefault').addEventListener('click',()=>{
   peticion['facturacion']=peticion['facturacion']==0 ? 1: 0;
   console.log(peticion['facturacion']);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -69,7 +68,6 @@ function mostrarPago(e){
   }
   
   // llamar al payment.php por metodo POST
-
   initialize();
   // checar status del pago asincronamente
   checkStatus();
@@ -79,11 +77,30 @@ function mostrarPago(e){
     
     
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // envia ya --------------------------------------------------------------------------------------------------
-
-
-
-
 var upsTotal;
 var fedexTotal;
 const imageUps = document.createElement('img');
@@ -99,11 +116,7 @@ var fedexCurrency;
 var upsCurrency;
 
 
-
 document.querySelector('#codigo_postal').addEventListener('change',registra);
-
-
-
 function registra(){
   // console.log("post 1");
   // // obtener valores y validar
@@ -165,14 +178,9 @@ function registra(){
         //   "currency":"USD",
         //   "intelligent_filtering":true
       }
-      //hacer la conexion con al archivo php
-      
-      
-      
       
       $.post('https://enviaya.com.mx/api/v1/rates',peticion,
       function(data){
-        // obtener resultado de la ejecucion del archivo php
         console.log(data);
         
         var ups = data['UPS'];
@@ -202,8 +210,6 @@ function registra(){
         upsCurrency=ups2['currency'];
         fedexCurrency=fedex2['currency'];
         
-        
-        
         const imagenes = document.querySelectorAll('.enviaYaImagen');
         imagenes[0].appendChild(imageFedex);
         imagenes[1].appendChild(imageUps);
@@ -222,12 +228,7 @@ function registra(){
 
 
     });
-    
-    
-    
-    
-    
-    console.log("finish");
+    // console.log("finish");
   }
 
 
@@ -237,26 +238,19 @@ function registra(){
     peticion['paqueteria']=e.target.value;
     //codigo para mostrar total ------------------------------------------------------------------------
 
-
-
-
         if(T[0].contains(i)) T[0].removeChild(i);
         // // visualizar o esconder el pago de paypal 
         if(e.target.value=='fedex'){
-          i.src = src[0];
+          i.src = src[1];
           T[1].textContent=fedexCurrency+' '+ fedexTotal;
           totalCuenta.textContent = fedexTotal+montoTotal;
         }else{
-          i.src = src[1];
+          i.src = src[0];
           T[1].textContent=upsCurrency+' '+ upsTotal;
           totalCuenta.textContent = upsTotal+montoTotal;
         }
 
         T[0].appendChild(i);
-
-
-        
-
         document.querySelector('#muestraEnviaYa').classList.remove('hidden');
     //codigo para mostrar total ------------------------------------------------------------------------
   
@@ -265,6 +259,20 @@ function registra(){
   // envia ya --------------------------------------------------------------------------------------------------
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
@@ -302,6 +310,18 @@ function registra(){
   
   
   
+
+
+
+
+
+
+
+
+
+
+
+
   
   //renderizar los botones de paypal-----------------------------------------------------------------------------------
   
@@ -345,6 +365,15 @@ paypal.Buttons({
   
   
   
+
+
+
+
+
+
+
+
+
   
   
   
@@ -354,9 +383,6 @@ paypal.Buttons({
 
 async function initialize() {
 
-  
- 
-  
     setLoading(true);
     //hacer la conexion con al archivo php
     const resultado = await $.post('http://localhost/tiendaweb/views/payment/payment.php',peticion,
@@ -443,6 +469,15 @@ async function initialize() {
                   }
                 }
 //// confirmar el pago -------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 

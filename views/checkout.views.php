@@ -1,5 +1,9 @@
 <?php 
 include "header.php"; 
+
+echo "<pre>";
+echo var_dump($_SESSION);
+echo "</pre>";
  ?>
         <!-- Main Header Area End Here -->
 

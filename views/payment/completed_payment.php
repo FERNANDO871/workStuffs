@@ -3,7 +3,6 @@
 
 require "../../procesos/conexion.php";
 
-
 // obtener el id del clientre con la sesion
 session_start();
 $idcliente = $_SESSION['id'];
@@ -13,17 +12,34 @@ $idcliente = $_SESSION['id'];
 $folioPedido= $_GET['id_pedido']?? '1401';
 $facturacion= $_GET['facturacion']?? 0;
 $paqueteria= $_GET['paqueteria'] ?? 'UPS';
+$fechaActual =date("Y-m-d");
+
+//cantidad ------------------------------------------------------------------------------------------
+$query1 = "SELECT * FROM carrito where pedido='$folioPedido' limit 1";
+$consulta1 = mysqli_query($data, $query1);
+$Cantidad = mysqli_fetch_assoc($consulta1);
+$c = $Cantidad['Cantidad'];
+
+echo $cantidad['Cantidad'];
 
 
 
-//actualizar el estadus a 2 con el id del cliente --------------------------------------------
-$query = "UPDATE carrito SET Estatus=2 WHERE pedido='$folioPedido'";
-$consulta = mysqli_query($data, $query);
+
+
+//actualizar el estadus a 2 con el id del cliente ---------------------------------------------------
+$query3= "INSERT INTO pedido (Fecha, IdClt, Estatus, Cantidad, Numero, serie, folio, facturacion, paqueteria) VALUES (
+                       '$fechaActual',$idcliente,'1',$c, '1',100,'$folioPedido','$facturacion', '$paqueteria')";
+
+$consulta3 = mysqli_query($data, $query3);
 $query1 = "UPDATE pedido SET facturacion= $facturacion WHERE folio='$folioPedido' ";
 $consulta = mysqli_query($data, $query1);
 $query2 = "UPDATE pedido SET paqueteria='$paqueteria' WHERE folio='$folioPedido'";
 $consulta = mysqli_query($data, $query2);
-//actualizar el estadus a 2 con el id del cliente------------------------------------------
+//actualizar el estadus a 2 con el id del cliente--------------------------------------------------------
+
+
+//comentar esta linea para ver los valores en la pantalla
+header("location: http://localhost/tiendaweb/");
 
 ?>
 
@@ -51,8 +67,3 @@ $consulta = mysqli_query($data, $query2);
 </html>
 
 
-<?php  
-
-    header("location: http://localhost/tiendaweb/");
-
-?>

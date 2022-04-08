@@ -127,17 +127,17 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li>
-                                                                    <a  data-bs-toggle="tooltip" data-placement="top" title="Add To cart" onclick="carritoid(<?php echo $mostrar_pac[0]; ?>)" ><i class="lastudioicon-shopping-cart-3"></i></a>
+                                                                    <a  data-bs-toggle="tooltip" data-placement="top" title="Add To cart" onclick="carritoid(<?php echo $mostrar_pac[0]; ?>)" ><i class="bi bi-bag-plus-fill"></i></a>
 
 
 
                                                                 </li>
                                                                 <li class="Yena's-view-btn"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View" onclick="mostrarproducto(<?php echo $mostrar_pac[0]; ?>)"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
-                                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
+                                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -193,16 +193,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -227,16 +227,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -261,16 +261,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -295,16 +295,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -330,16 +330,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -364,16 +364,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -398,16 +398,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -433,16 +433,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -492,16 +492,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -526,16 +526,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -561,16 +561,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -595,16 +595,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -629,16 +629,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -664,16 +664,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -699,16 +699,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -733,16 +733,16 @@ include "header.php";
                                                         <div class="add-actions">
                                                             <ul>
                                                                 <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i
-                                                                        class="lastudioicon-shopping-cart-3"></i></a>
+                                                                        class="bi bi-bag-plus-fill"></i></a>
                                                                 </li>
                                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                                        class="lastudioicon-eye"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
                                                                         class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
-                                                                        class="lastudioicon-compare"></i></a>
+                                                                        class="bi bi-eye-fill"></i></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -828,14 +828,14 @@ include "header.php";
                                         </a>
                                         <div class="add-actions">
                                             <ul>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="lastudioicon-shopping-cart-3"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="bi bi-bag-plus-fill"></i></a>
                                                 </li>
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                        class="lastudioicon-eye"></i></a>
+                                                        class="bi bi-eye-fill"></i></a>
                                                 </li>
                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="bi bi-eye-fill"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -860,14 +860,14 @@ include "header.php";
                                         <span class="sticker">New</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="lastudioicon-shopping-cart-3"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="bi bi-bag-plus-fill"></i></a>
                                                 </li>
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                        class="lastudioicon-eye"></i></a>
+                                                        class="bi bi-eye-fill"></i></a>
                                                 </li>
                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="bi bi-eye-fill"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -892,14 +892,14 @@ include "header.php";
                                         </a>
                                         <div class="add-actions">
                                             <ul>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="lastudioicon-shopping-cart-3"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="bi bi-bag-plus-fill"></i></a>
                                                 </li>
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                        class="lastudioicon-eye"></i></a>
+                                                        class="bi bi-eye-fill"></i></a>
                                                 </li>
                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="bi bi-eye-fill"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -923,14 +923,14 @@ include "header.php";
                                         </a>
                                         <div class="add-actions">
                                             <ul>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="lastudioicon-shopping-cart-3"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="bi bi-bag-plus-fill"></i></a>
                                                 </li>
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                        class="lastudioicon-eye"></i></a>
+                                                        class="bi bi-eye-fill"></i></a>
                                                 </li>
                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="bi bi-eye-fill"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -954,14 +954,14 @@ include "header.php";
                                         </a>
                                         <div class="add-actions">
                                             <ul>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="lastudioicon-shopping-cart-3"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="bi bi-bag-plus-fill"></i></a>
                                                 </li>
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                        class="lastudioicon-eye"></i></a>
+                                                        class="bi bi-eye-fill"></i></a>
                                                 </li>
                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="bi bi-eye-fill"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -985,14 +985,14 @@ include "header.php";
                                         </a>
                                         <div class="add-actions">
                                             <ul>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="lastudioicon-shopping-cart-3"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart"><i class="bi bi-bag-plus-fill"></i></a>
                                                 </li>
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
-                                                        class="lastudioicon-eye"></i></a>
+                                                        class="bi bi-eye-fill"></i></a>
                                                 </li>
                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="bi bi-eye-fill"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1198,7 +1198,7 @@ include "header.php";
                             <div class="banner-content h-100 wow fadeInUp">
                                 <h2 class="title white-text_color text-uppercase font-style_italic">Secret of beautiful skin</h2>
                                 <div class="popup-btn">
-                                    <a class="popup-vimeo" href="https://player.vimeo.com/video/172601404?autoplay=1"><i class="dlicon media-1_button-play"></i>
+                                    <a class="popup-vimeo" href="https://player.vimeo.com/video/172601404?autoplay=1"><i class="bi bi-play-fill"></i>
                                     </a>
                                 </div>
                             </div>
