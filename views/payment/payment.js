@@ -5,8 +5,8 @@ const stripe = Stripe("pk_test_51Kb6O2Cuu9QiirsWFCOOAIhyPiMRouhxrSUVNntXt5JrYXtW
 // objeto para enviar payment.php y pueda general el objeto pago de Stripe correctamente
 peticion={
   "metodoPago":"card",
-  "folio":document.querySelector("#folio").value,
-  "monto": document.querySelector("#monto").value,
+  "folio":1401,
+  "monto": 100,
   "facturacion":0,
   "paqueteria":'ups',
 };
@@ -384,10 +384,12 @@ paypal.Buttons({
 async function initialize() {
 
     setLoading(true);
+    console.log('dentro');
     //hacer la conexion con al archivo php
     const resultado = await $.post('http://localhost/tiendaweb/views/payment/payment.php',peticion,
         function(data){ 
               
+          console.log(data);
               var crear = JSON.parse(data);
               console.log(data);
               console.log(crear);

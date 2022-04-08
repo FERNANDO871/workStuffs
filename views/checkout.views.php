@@ -219,7 +219,7 @@ echo "</pre>";
                                             <td><strong><span class="amount">$ <span id="toTAL"><?php echo $TotalForm  ?></span></span></strong> 
             <!-- enviar el monto a payment.php -->
                                         
-                                                <input type="hidden" id="monto" name="monto" value =  <?php echo $TotalForm  ?> ></input>
+                                                <input type="" id="monto" name="monto" value =  <?php echo $TotalForm  ?> ></input>
                                          
                                             
             <!-- enviar el monto a payment.php -->                            
@@ -318,13 +318,13 @@ echo "</pre>";
 <div class="container">
   <div class="row">
     <div class="col">
-                        <h6 class="shipmentMessegue amount card-product-total">if you need invoice please fill the form on 
+                        <h6 class="shipmentMessegue amount card-product-total">si requiere facturacion llene los campos en 
                         <a href="http://localhost/tiendaweb/my-account.php">my account</a> </h6>
     </div>
     <div class="col col-4">
                        <input class="form-check-input" type="checkbox" value='true' id="flexCheckDefault">
                         <label class="form-check-label shipmentMessegue" for="flexCheckDefault">
-                            do you need invoice?
+                            requiere facturacion?
                         </label>
     </div>
   </div>
