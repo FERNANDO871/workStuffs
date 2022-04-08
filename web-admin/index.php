@@ -15,7 +15,7 @@ session_start();
 
     <!-- Bootstrap core CSS -->
 
-  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css_web_admin/bootstrap.min.css" rel="stylesheet"> -->
    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -23,8 +23,8 @@ session_start();
 
     <script src="https://cdn.ckeditor.com/4.17.1/standard/ckeditor.js"></script>
 
-   <link href="css/bootstrap.css" rel="stylesheet"> 
-   <link href="css/estilos.css" rel="stylesheet"> 
+   <link href="assets/css_web_admin/bootstrap.css" rel="stylesheet"> 
+   <link href="assets/css_web_admin/estilos.css" rel="stylesheet"> 
    
   
   </head>

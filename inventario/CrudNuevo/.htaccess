@@ -1,8 +1,0 @@
-#impedir que se pueda ver le listado de centenidos
-Options All - Indexes
-
-# URL Amigables
-
-RewriteEngine On
- 
-RewriteRule ^productos/([a-zA-Z]+)/([a-zA-Z]+)$ tienda.php?productos=$1&categoria=$2 
