@@ -191,7 +191,7 @@ include "header.php";
                                         </tr>
                                     </tbody>
                                     <tbody>
-                                        <tr class="cart_item hidden">
+                                        <tr class="cart_item">
                                             <td class="cart-product-name totalEnviaYA"> </td>
                                             <td class="cart-product-total totalEnviaYA"><span class="amount"></span></td>
                                         </tr>
@@ -200,15 +200,19 @@ include "header.php";
                                             × 1</strong></td>
                                             <td class="cart-product-total"><span class="amount">£165.00</span></td>
                                         </tr>
+                                        <tr class="cart_item hidden" id="muestraEnviaYa">
+                                            <td class="cart-product-name enviaYaTotal"></td>
+                                            <td class="cart-product-total enviaYaTotal"></td>
+                                        </tr>
                                     </tbody>
                                     <tfoot>
                                         <tr class="cart-subtotal">
                                             <th>Cart Subtotal</th>
-                                            <td><span class="amount">£215.00</span></td>
+                                            <td><span class="amount" >£215.00</span></td>
                                         </tr>
                                         <tr class="order-total">
                                             <th>Order Total</th>
-                                            <td><strong><span class="amount">$ <?php echo $TotalForm  ?></span></strong> 
+                                            <td><strong><span class="amount">$ <span id="toTAL"><?php echo $TotalForm  ?></span></span></strong> 
             <!-- enviar el monto a payment.php -->
                                         
                                                 <input type="hidden" id="monto" name="monto" value =  <?php echo $TotalForm  ?> ></input>
@@ -233,14 +237,14 @@ include "header.php";
                 </thead>
                 <tbody>
                     <tr class="cart_item" id="fedex">
-                        <td class="cart-product-name"><img class="enviaYaImagen" > </td>
+                        <td class="cart-product-name enviaYaImagen"> </td>
                         <td class="cart-product-total"><span class="amount preciosEnviaYA"></span></td>
                         <td class="cart-product-total"><span class="amount dateEnviaYA"></span></td>
                         <td class="cart-product-total"><input class="form-check-input" type="radio" value="fedex" name="paqueteria[paqueteria]"> </td>
 
                     </tr>
                     <tr class="cart_item" id="ups">
-                        <td class="cart-product-name"><img class="enviaYaImagen" alt=""> </td>
+                        <td class="cart-product-name enviaYaImagen"> </td>
                         <td class="cart-product-total"><span class="amount preciosEnviaYA"></span></td>
                         <td class="cart-product-total"><span class="amount dateEnviaYA"></span></td>
                         <td class="cart-product-total"><input class="form-check-input" type="radio" value="ups" name="paqueteria[paqueteria]"></td>
