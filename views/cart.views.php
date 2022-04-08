@@ -143,7 +143,7 @@ $row2 = mysqli_fetch_row($return_cart_cupon);
           
                                         <tr>
                                             <td class="yena-product_remove"><a href="javascript:void(0)">
-                                                <i class="lastudioicon-e-remove"
+                                                <i class="bi bi-file-x"
                                                 title="Remove"></i></a></td>
 
 
@@ -165,9 +165,9 @@ $row2 = mysqli_fetch_row($return_cart_cupon);
                                                 <div class="cart-plus-minus">
                                                     <input class="cart-plus-minus-box" 
                                                     value="<?php echo $row[2]; ?>" type="text"  name="txtcan[]">
-                                                    <div class="dec qtybutton"><i class="lastudioicon-down-arrow"></i></div>
+                                                    <div class="dec qtybutton"><i class="bi bi-chevron-compact-down"></i></div>
                                                    
-                                                    <div class="inc qtybutton"><i class="lastudioicon-up-arrow"></i></div>
+                                                    <div class="inc qtybutton"><i class="bi bi-chevron-compact-up"></i></div>
                                                     
                                                     
                                                 </div>

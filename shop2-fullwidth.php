@@ -75,7 +75,7 @@
                                     <div class="main-menu_area d-none d-lg-block">
                                         <nav class="main-nav d-flex justify-content-center">
                                             <ul>
-                                                <li class="megamenu-holder two-column position-static"><a class="" href="javascript:void(0)">Home <i class="lastudioicon-down-arrow"></i></a>
+                                                <li class="megamenu-holder two-column position-static"><a class="" href="javascript:void(0)">Home <i class="bi bi-chevron-compact-down"></i></a>
                                                     <div class="yena-megamenu_wrap">
                                                         <ul class="yena-megamenu">
                                                             <li>
@@ -97,7 +97,7 @@
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a class="" href="javascript:void(0)">Pages <i class="lastudioicon-down-arrow"></i></a>
+                                                <li><a class="" href="javascript:void(0)">Pages <i class="bi bi-chevron-compact-down"></i></a>
                                                     <ul class="yena-dropdown">
                                                         <li><a href="about-us.html">About Us</a></li>
                                                         <li><a href="our-services.html">Our Services</a></li>
@@ -109,7 +109,7 @@
                                                 </li>
                                                 <li class="megamenu-holder megamenu-gallery_holder position-static">
                                                     <a href="javascript:void(0)">Collection
-                                                        <i class="lastudioicon-down-arrow"></i>
+                                                        <i class="bi bi-chevron-compact-down"></i>
                                                     </a>
                                                     <div class="yena-megamenu_wrap">
                                                         <ul class="yena-megamenu">
@@ -164,7 +164,7 @@
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li class="megamenu-holder position-static"><a class="active" href="shop-fullwidth.html">Shop <i class="lastudioicon-down-arrow"></i></a>
+                                                <li class="megamenu-holder position-static"><a class="active" href="shop-fullwidth.html">Shop <i class="bi bi-chevron-compact-down"></i></a>
                                                     <div class="yena-megamenu_wrap">
                                                         <ul class="yena-megamenu yena-megamenu-2">
                                                             <li>
@@ -216,7 +216,7 @@
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a class="" href="javascript:void(0)">Blog <i class="lastudioicon-down-arrow"></i></a>
+                                                <li><a class="" href="javascript:void(0)">Blog <i class="bi bi-chevron-compact-down"></i></a>
                                                     <ul class="yena-dropdown">
                                                         <li><a href="blog-grid-basic.html">Blog Grid Basic</a></li>
                                                         <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
@@ -234,26 +234,26 @@
                                         <ul>
                                             <li>
                                                 <a href="#searchBar" class="search-btn toolbar-btn">
-                                                    <i class="lastudioicon-zoom-1"></i>
+                                                    <i class="bi bi-search"></i>
                                                 </a>
                                             </li>
                                             <li class="minicart-wrap">
                                                 <a href="#miniCart" class="minicart-btn toolbar-btn">
                                                     <div class="minicart-count_area">
-                                                        <i class="lastudioicon-bag-20"></i>
+                                                        <i class="bi bi-bag-heart-fill"></i>
                                                         <span class="cart-item_count">3</span>
                                                     </div>
                                                 </a>
                                             </li>
                                             <li class="mobile-menu_wrap d-inline-block d-xl-none">
                                                 <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn">
-                                                    <i class="lastudioicon-menu-4-1"></i>
+                                                    <i class="bi bi-three-dots-vertical"></i>
                                                 </a>
                                             </li>
                                             <li class="menu-wrap">
                                                 <a href="#offcanvasMenu" class="menu-btn toolbar-btn d-none d-xl-block">
                                                     <div class="minicart-count_area">
-                                                        <i class="lastudioicon-menu-4-1"></i>
+                                                        <i class="bi bi-three-dots-vertical"></i>
                                                     </div>
                                                 </a>
                                             </li>
@@ -278,7 +278,7 @@
                                 <div class="main-menu_area d-none d-xl-block">
                                     <nav class="main-nav d-flex justify-content-center">
                                         <ul>
-                                            <li class="megamenu-holder two-column position-static"><a class="" href="javascript:void(0)">Home <i class="lastudioicon-down-arrow"></i></a>
+                                            <li class="megamenu-holder two-column position-static"><a class="" href="javascript:void(0)">Home <i class="bi bi-chevron-compact-down"></i></a>
                                                 <div class="yena-megamenu_wrap">
                                                     <ul class="yena-megamenu">
                                                         <li>
@@ -300,7 +300,7 @@
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li><a class="" href="javascript:void(0)">Pages <i class="lastudioicon-down-arrow"></i></a>
+                                            <li><a class="" href="javascript:void(0)">Pages <i class="bi bi-chevron-compact-down"></i></a>
                                                 <ul class="yena-dropdown">
                                                     <li><a href="about-us.html">About Us</a></li>
                                                     <li><a href="our-services.html">Our Services</a></li>
@@ -312,7 +312,7 @@
                                             </li>
                                             <li class="megamenu-holder megamenu-gallery_holder position-static">
                                                 <a href="javascript:void(0)">Collection
-                                                    <i class="lastudioicon-down-arrow"></i>
+                                                    <i class="bi bi-chevron-compact-down"></i>
                                                 </a>
                                                 <div class="yena-megamenu_wrap">
                                                     <ul class="yena-megamenu">
@@ -367,7 +367,7 @@
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li class="megamenu-holder position-static"><a class="active" href="shop-fullwidth.html">Shop <i class="lastudioicon-down-arrow"></i></a>
+                                            <li class="megamenu-holder position-static"><a class="active" href="shop-fullwidth.html">Shop <i class="bi bi-chevron-compact-down"></i></a>
                                                 <div class="yena-megamenu_wrap">
                                                     <ul class="yena-megamenu yena-megamenu-2">
                                                         <li>
@@ -419,7 +419,7 @@
                                                     </ul>
                                                 </div>
                                             </li>
-                                            <li><a class="" href="javascript:void(0)">Blog <i class="lastudioicon-down-arrow"></i></a>
+                                            <li><a class="" href="javascript:void(0)">Blog <i class="bi bi-chevron-compact-down"></i></a>
                                                 <ul class="yena-dropdown">
                                                     <li><a href="blog-grid-basic.html">Blog Grid Basic</a></li>
                                                     <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
@@ -435,26 +435,26 @@
                                     <ul>
                                         <li>
                                             <a href="#searchBar" class="search-btn toolbar-btn">
-                                                <i class="lastudioicon-zoom-1"></i>
+                                                <i class="bi bi-search"></i>
                                             </a>
                                         </li>
                                         <li class="minicart-wrap">
                                             <a href="#miniCart" class="minicart-btn toolbar-btn">
                                                 <div class="minicart-count_area">
-                                                    <i class="lastudioicon-bag-20"></i>
+                                                    <i class="bi bi-bag-heart-fill"></i>
                                                     <span class="cart-item_count">3</span>
                                                 </div>
                                             </a>
                                         </li>
                                         <li class="mobile-menu_wrap d-inline-block d-xl-none">
                                             <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn">
-                                                <i class="lastudioicon-menu-4-1"></i>
+                                                <i class="bi bi-three-dots-vertical"></i>
                                             </a>
                                         </li>
                                         <li class="menu-wrap">
                                             <a href="#offcanvasMenu" class="menu-btn toolbar-btn d-none d-xl-block">
                                                 <div class="minicart-count_area">
-                                                    <i class="lastudioicon-menu-4-1"></i>
+                                                    <i class="bi bi-three-dots-vertical"></i>
                                                 </div>
                                             </a>
                                         </li>
@@ -467,7 +467,7 @@
             </div>
             <div class="offcanvas-minicart_wrapper" id="miniCart">
                 <div class="offcanvas-menu-inner">
-                    <a href="#" class="btn-close"><i class="lastudioicon-e-remove"></i></a>
+                    <a href="#" class="btn-close"><i class="bi bi-file-x"></i></a>
                     <div class="minicart-content">
                         <div class="minicart-heading">
                             <h4>Shopping Cart</h4>
@@ -475,7 +475,7 @@
                         <ul class="minicart-list">
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="javascript:void(0)"><i
-                                    class="lastudioicon-e-remove"></i></a>
+                                    class="bi bi-file-x"></i></a>
                                 <div class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/1.jpg" alt="Yena's Product Image">
                                 </div>
@@ -486,7 +486,7 @@
                             </li>
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="javascript:void(0)"><i
-                                    class="lastudioicon-e-remove"></i></a>
+                                    class="bi bi-file-x"></i></a>
                                 <div class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/2.jpg" alt="Yena's Product Image">
                                 </div>
@@ -497,7 +497,7 @@
                             </li>
                             <li class="minicart-product">
                                 <a class="product-item_remove" href="javascript:void(0)"><i
-                                    class="lastudioicon-e-remove"></i></a>
+                                    class="bi bi-file-x"></i></a>
                                 <div class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/3.jpg" alt="Yena's Product Image">
                                 </div>
@@ -522,11 +522,11 @@
             </div>
             <div class="mobile-menu_wrapper" id="mobileMenu">
                 <div class="offcanvas-menu-inner">
-                    <a href="#" class="btn-close-2"><i class="lastudioicon-e-remove"></i></a>
+                    <a href="#" class="btn-close-2"><i class="bi bi-file-x"></i></a>
                     <nav class="offcanvas-navigation">
                         <ul class="mobile-menu">
                             <li class="menu-item-has-children active"><a href="#"><span
-                                    class="mm-text">Home <i class="lastudioicon-down-arrow"></i></span></a>
+                                    class="mm-text">Home <i class="bi bi-chevron-compact-down"></i></span></a>
                                 <ul class="sub-menu">
                                     <li>
                                         <a href="index.html">
@@ -572,7 +572,7 @@
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">
-                                    <span class="mm-text">Pages <i class="lastudioicon-down-arrow"></i></span>
+                                    <span class="mm-text">Pages <i class="bi bi-chevron-compact-down"></i></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li>
@@ -609,7 +609,7 @@
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">
-                                    <span class="mm-text">Collection <i class="lastudioicon-down-arrow"></i></span>
+                                    <span class="mm-text">Collection <i class="bi bi-chevron-compact-down"></i></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li>
@@ -621,12 +621,12 @@
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">
-                                    <span class="mm-text">Shop <i class="lastudioicon-down-arrow"></i></span>
+                                    <span class="mm-text">Shop <i class="bi bi-chevron-compact-down"></i></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            <span class="mm-text">Top Category <i class="lastudioicon-down-arrow"></i></span>
+                                            <span class="mm-text">Top Category <i class="bi bi-chevron-compact-down"></i></span>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -663,7 +663,7 @@
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            <span class="mm-text">Shop Layout <i class="lastudioicon-down-arrow"></i></span>
+                                            <span class="mm-text">Shop Layout <i class="bi bi-chevron-compact-down"></i></span>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -700,7 +700,7 @@
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            <span class="mm-text">Product Layout <i class="lastudioicon-down-arrow"></i></span>
+                                            <span class="mm-text">Product Layout <i class="bi bi-chevron-compact-down"></i></span>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -747,7 +747,7 @@
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            <span class="mm-text">Shop Pages <i class="lastudioicon-down-arrow"></i></span>
+                                            <span class="mm-text">Shop Pages <i class="bi bi-chevron-compact-down"></i></span>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -786,7 +786,7 @@
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">
-                                    <span class="mm-text">Blog <i class="lastudioicon-down-arrow"></i></span>
+                                    <span class="mm-text">Blog <i class="bi bi-chevron-compact-down"></i></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children has-children">
@@ -823,7 +823,7 @@
                             <li class="menu-item-has-children active">
                                 <a href="#">
                                     <span class="mm-text">User Setting 
-                                    <i class="lastudioicon-down-arrow"></i>
+                                    <i class="bi bi-chevron-compact-down"></i>
                                 </span>
                                 </a>
                                 <ul class="sub-menu">
@@ -842,7 +842,7 @@
                             <li class="menu-item-has-children">
                                 <a href="#">
                                     <span class="mm-text">Currency 
-                                    <i class="lastudioicon-down-arrow"></i>
+                                    <i class="bi bi-chevron-compact-down"></i>
                                 </span>
                                 </a>
                                 <ul class="sub-menu">
@@ -861,7 +861,7 @@
                             <li class="menu-item-has-children">
                                 <a href="#">
                                     <span class="mm-text">Language 
-                                    <i class="lastudioicon-down-arrow"></i>
+                                    <i class="bi bi-chevron-compact-down"></i>
                                 </span>
                                 </a>
                                 <ul class="sub-menu">
@@ -893,7 +893,7 @@
             </div>
             <div class="offcanvas-menu_wrapper" id="offcanvasMenu">
                 <div class="offcanvas-menu-inner">
-                    <a href="#" class="btn-close"><i class="lastudioicon-e-remove"></i></a>
+                    <a href="#" class="btn-close"><i class="bi bi-file-x"></i></a>
                     <div class="offcanvas-inner_nav">
                         <ul>
                             <li>
@@ -928,22 +928,22 @@
                             <ul>
                                 <li class="facebook">
                                     <a href="https://www.facebook.com" data-bs-toggle="tooltip" target="_blank" title="Facebook">
-                                        <i class="lastudioicon-b-facebook"></i>
+                                        <i class="bi bi-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="twitter">
                                     <a href="https://twitter.com" data-bs-toggle="tooltip" target="_blank" title="Twitter">
-                                        <i class="lastudioicon-b-twitter"></i>
+                                        <i class="bi bi-twitter"></i>
                                     </a>
                                 </li>
                                 <li class="instagram">
                                     <a href="https://www.instagram.com/" data-bs-toggle="tooltip" target="_blank" title="Instagram">
-                                        <i class="lastudioicon-b-instagram"></i>
+                                        <i class="bi bi-instagram"></i>
                                     </a>
                                 </li>
                                 <li class="instagram">
                                     <a href="https://vimeo.com/" data-bs-toggle="tooltip" target="_blank" title="Vimeo">
-                                        <i class="lastudioicon-b-vimeo"></i>
+                                        <i class="bi bi-cast"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -963,13 +963,13 @@
             <div class="offcanvas-search_wrapper" id="searchBar">
                 <div class="offcanvas-menu-inner">
                     <div class="container h-100">
-                        <a href="#" class="btn-close"><i class="lastudioicon-e-remove"></i></a>
+                        <a href="#" class="btn-close"><i class="bi bi-file-x"></i></a>
                         <!-- Begin Offcanvas Search Area -->
                         <div class="offcanvas-search">
                             <span class="searchbox-info">Start typing and press Enter to search</span>
                             <form action="#" class="hm-searchbox">
                                 <input type="text" placeholder="Search">
-                                <button class="search_btn" type="submit"><i class="lastudioicon-zoom-1"></i></button>
+                                <button class="search_btn" type="submit"><i class="bi bi-search"></i></button>
                             </form>
                         </div>
                         <!-- Offcanvas Search Area End Here -->
@@ -1008,7 +1008,7 @@
                                     <nav class="product-selection_nav">
                                         <ul>
                                             <li class="dropdown-holder">
-                                                <a href="javascript:void(0)">View <i class="lastudioicon-down-arrow"></i></a>
+                                                <a href="javascript:void(0)">View <i class="bi bi-chevron-compact-down"></i></a>
                                                 <ul class="ps-dropdown product-view-mode">
                                                     <li><a class="grid-5" data-target="gridview-5" href="javascript:void(0)">View 05</a></li>
                                                     <li><a class="grid-4 active" data-target="gridview-4" href="javascript:void(0)">View 04</a></li>
@@ -1017,7 +1017,7 @@
                                                 </ul>
                                             </li>
                                             <li class="dropdown-holder">
-                                                <a href="javascript:void(0)">Show 12 <i class="lastudioicon-down-arrow"></i></a>
+                                                <a href="javascript:void(0)">Show 12 <i class="bi bi-chevron-compact-down"></i></a>
                                                 <ul class="ps-dropdown show-wrap">
                                                     <li><a href="javascript:void(0)">Show 12</a></li>
                                                     <li><a href="javascript:void(0)">Show 15</a></li>
@@ -1027,11 +1027,11 @@
                                             <li class="filter-item_wrap">
                                                 <a href="#" class="filter-btn">
                                                     Filter
-                                                    <i class="lastudioicon-down-arrow"></i>
+                                                    <i class="bi bi-chevron-compact-down"></i>
                                                 </a>
                                             </li>
                                             <li class="dropdown-holder">
-                                                <a href="javascript:void(0)">Sort by Default <i class="lastudioicon-down-arrow"></i></a>
+                                                <a href="javascript:void(0)">Sort by Default <i class="bi bi-chevron-compact-down"></i></a>
                                                 <ul class="ps-dropdown sort-wrap">
                                                     <li><a href="javascript:void(0)">Sort by Default</a></li>
                                                     <li><a href="javascript:void(0)">Sort by Popularity</a></li>
@@ -1172,7 +1172,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1223,7 +1223,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1251,7 +1251,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1299,7 +1299,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1324,7 +1324,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1372,7 +1372,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1397,7 +1397,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1445,7 +1445,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1470,7 +1470,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1518,7 +1518,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1543,7 +1543,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1591,7 +1591,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1616,7 +1616,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1664,7 +1664,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1689,7 +1689,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1737,7 +1737,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1762,7 +1762,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1810,7 +1810,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1835,7 +1835,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1883,7 +1883,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1908,7 +1908,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1956,7 +1956,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -1981,7 +1981,7 @@
                                                     <li class="yena-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Quick View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -2029,7 +2029,7 @@
                                                 <ul>
                                                     <li class="add-to-cart"><a href="cart.php" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">Add to cart</a>
                                                     </li>
-                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                    <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                     </li>
                                                     <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                     </li>
@@ -2075,22 +2075,22 @@
                                     <ul>
                                         <li class="facebook">
                                             <a href="https://www.facebook.com" data-bs-toggle="tooltip" target="_blank" title="Facebook">
-                                                <i class="lastudioicon-b-facebook"></i>
+                                                <i class="bi bi-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="twitter">
                                             <a href="https://twitter.com" data-bs-toggle="tooltip" target="_blank" title="Twitter">
-                                                <i class="lastudioicon-b-twitter"></i>
+                                                <i class="bi bi-twitter"></i>
                                             </a>
                                         </li>
                                         <li class="instagram">
                                             <a href="https://www.instagram.com/" data-bs-toggle="tooltip" target="_blank" title="Instagram">
-                                                <i class="lastudioicon-b-instagram"></i>
+                                                <i class="bi bi-instagram"></i>
                                             </a>
                                         </li>
                                         <li class="instagram">
                                             <a href="https://vimeo.com/" data-bs-toggle="tooltip" target="_blank" title="Vimeo">
-                                                <i class="lastudioicon-b-vimeo"></i>
+                                                <i class="bi bi-cast"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -2203,30 +2203,30 @@
                 <ul>
                     <li>
                         <a href="login-register.html">
-                            <i class="lastudioicon-circle-10"></i>
+                            <i class="bi bi-circle-half"></i>
                         </a>
                     </li>
                     <li>
                         <a href="#searchBar" class="search-btn toolbar-btn">
-                            <i class="lastudioicon-zoom-1"></i>
+                            <i class="bi bi-search"></i>
                         </a>
                     </li>
                     <li class="with-counter">
                         <a href="wishlist.html">
-                            <i class="lastudioicon-heart-2"></i>
+                            <i class="bi bi-suit-heart-fill"></i>
                             <span class="cart-item_count">3</span>
                         </a>
                     </li>
                     <li class="with-counter">
                         <a href="compare.html">
-                            <i class="lastudioicon-chart-bar-32-2"></i>
+                            <i class="bi bi-flower3"></i>
                             <span class="cart-item_count">3</span>
                         </a>
                     </li>
                     <li class="minicart-wrap with-counter">
                         <a href="#miniCart" class="minicart-btn toolbar-btn position-relative">
                             <div class="minicart-count_area">
-                                <i class="lastudioicon-bag-20"></i>
+                                <i class="bi bi-bag-heart-fill"></i>
                                 <span class="cart-item_count">3</span>
                             </div>
                         </a>
@@ -2340,8 +2340,8 @@
                                         <div class="quantity">
                                             <div class="cart-plus-minus">
                                                 <input class="cart-plus-minus-box" value="1" type="text">
-                                                <div class="dec qtybutton"><i class="lastudioicon-down-arrow"></i></div>
-                                                <div class="inc qtybutton"><i class="lastudioicon-up-arrow"></i></div>
+                                                <div class="dec qtybutton"><i class="bi bi-chevron-compact-down"></i></div>
+                                                <div class="inc qtybutton"><i class="bi bi-chevron-compact-up"></i></div>
                                             </div>
                                         </div>
                                         <div class="add-to_cart">
@@ -2350,7 +2350,7 @@
                                     </div>
                                     <ul class="additional-btn">
                                         <li>
-                                            <a href="javascript:void(0)"><i class="lastudioicon-heart-2"></i> Add to wishlist</a>
+                                            <a href="javascript:void(0)"><i class="bi bi-suit-heart-fill"></i> Add to wishlist</a>
                                         </li>
                                         <li>
                                             <a href="javascript:void(0)"><i class="lastudioicon-compare"></i> Add to compare</a>
@@ -2399,22 +2399,22 @@
                                         <ul>
                                             <li class="facebook">
                                                 <a href="https://www.facebook.com" data-bs-toggle="tooltip" target="_blank" title="Facebook">
-                                                    <i class="lastudioicon-b-facebook"></i>
+                                                    <i class="bi bi-facebook"></i>
                                                 </a>
                                             </li>
                                             <li class="twitter">
                                                 <a href="https://twitter.com" data-bs-toggle="tooltip" target="_blank" title="Twitter">
-                                                    <i class="lastudioicon-b-twitter"></i>
+                                                    <i class="bi bi-twitter"></i>
                                                 </a>
                                             </li>
                                             <li class="instagram">
                                                 <a href="https://www.instagram.com/" data-bs-toggle="tooltip" target="_blank" title="Instagram">
-                                                    <i class="lastudioicon-b-instagram"></i>
+                                                    <i class="bi bi-instagram"></i>
                                                 </a>
                                             </li>
                                             <li class="vimeo">
                                                 <a href="https://vimeo.com/" data-bs-toggle="tooltip" target="_blank" title="Vimeo">
-                                                    <i class="lastudioicon-b-vimeo"></i>
+                                                    <i class="bi bi-cast"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -2428,7 +2428,7 @@
         </div>
         <!-- Yena's Modal Area End Here -->
         <!-- Scroll To Top Start -->
-        <a class="scroll-to-top" href=""><i class="lastudioicon-up-arrow"></i></a>
+        <a class="scroll-to-top" href=""><i class="bi bi-chevron-compact-up"></i></a>
         <!-- Scroll To Top End -->
 
     </div>

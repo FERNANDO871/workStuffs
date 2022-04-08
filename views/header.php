@@ -73,13 +73,13 @@ $login='<li>
         <a href="cerrarsesion.php">Cerrar Sesion</a>
         </li>';
 
-
-$nombre= '<strong>' . $_SESSION['Nombre'] . '&nbsp' . $_SESSION['Apellido1'] . '&nbsp' .  $_SESSION['Apellido2'] . '</strong>' ;
+        // '&nbsp' .  $_SESSION['Apellido2'] .
+$nombre= '<strong>' . $_SESSION['Nombre'] . '&nbsp' . $_SESSION['Apellido1'] .  '</strong>' ;
 $usuario= $nombre ;
 
 
 
-$menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudioicon-down-arrow"></i></a>
+$menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="bi bi-chevron-compact-down"></i></a>
                                                     <ul class="yena-dropdown">
                                                         <li><a href="my-account.php">Mi Cuenta</a></li>
                                                         <li><a href="Controlusuario.php">Control de Usuario</a></li>
@@ -128,8 +128,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
 
 
 
-    <!-- lastudioicon -->
-    <link rel="stylesheet" href="assets/css/lastudioicon.min.css">
+
    <!--  Dlicon Icon -->
     <link rel="stylesheet" href="assets/css/dlicon.min.css"> 
      <!-- Font Awesome Icons -->
@@ -148,6 +147,9 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!-- Light Gallery -->
     <link rel="stylesheet" href="assets/css/lightgallery.min.css">
+
+    <!-- agregando los iconos de bootstrap -->
+    <link rel="stylesheet" href="assets/node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -194,7 +196,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                                 
                                                 <li class="megamenu-holder megamenu-gallery_holder position-static">
                                                     <a href="javascript:void(0)">Tienda
-                                                        <i class="lastudioicon-down-arrow"></i>
+                                                        <i class="bi bi-chevron-compact-down"></i>
                                                     </a>
                                                     <div class="yena-megamenu_wrap">
                                                         <ul class="yena-megamenu">
@@ -249,7 +251,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a class="" href="javascript:void(0)">Conócenos <i class="lastudioicon-down-arrow"></i></a>
+                                                <li><a class="" href="javascript:void(0)">Conócenos <i class="bi bi-chevron-compact-down"></i></a>
                                                     <ul class="yena-dropdown">
                                                         <li><a href="about-us.html">Acerca de nosotros</a></li>
                                                         <li><a href="our-services.html">Servicios</a></li>
@@ -258,7 +260,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                                         <li><a href="contact-us.html">Contacto</a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="megamenu-holder position-static"><a class="" href="shop-fullwidth.html">Shop <i class="lastudioicon-down-arrow"></i></a>
+                                                <li class="megamenu-holder position-static"><a class="" href="shop-fullwidth.html">Shop <i class="bi bi-chevron-compact-down"></i></a>
                                                     <div class="yena-megamenu_wrap">
                                                         <ul class="yena-megamenu yena-megamenu-2">
                                                             <li>
@@ -310,7 +312,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a class="" href="javascript:void(0)">Blog <i class="lastudioicon-down-arrow"></i></a>
+                                                <li><a class="" href="javascript:void(0)">Blog <i class="bi bi-chevron-compact-down"></i></a>
                                                     <ul class="yena-dropdown">
                                                         <li><a href="blog-grid-basic.html">Blog Grid Basic</a></li>
                                                         <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
@@ -350,7 +352,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                             <li class="minicart-wrap" id="notificador">
                                                 <a href="#miniCart" class="minicart-btn toolbar-btn">
                                                     <div class="minicart-count_area">
-                                                        <i class="lastudioicon-bag-20"></i>
+                                                        <i class="bi bi-bag-heart-fill"></i>
                                                         <?php echo $Noti ?>
                                                     </div>
                                                 </a>
@@ -366,14 +368,14 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
 
                                             <li class="mobile-menu_wrap d-inline-block d-xl-none">
                                                 <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn">
-                                                    <i class="lastudioicon-menu-4-1"></i>
+                                                    <i class="bi bi-three-dots-vertical"></i>
                                                 </a>
                                             </li>
 
                                             <li class="menu-wrap">
                                                 <a href="#offcanvasMenu" class="menu-btn toolbar-btn d-none d-xl-block">
                                                     <div class="minicart-count_area">
-                                                        <i class="lastudioicon-menu-4-1"></i>
+                                                        <i class="bi bi-three-dots-vertical"></i>
                                                     </div>
                                                 </a>
                                             </li>
@@ -408,7 +410,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                                 
                                                 <li class="megamenu-holder megamenu-gallery_holder position-static">
                                                     <a href="javascript:void(0)">Tienda
-                                                        <i class="lastudioicon-down-arrow"></i>
+                                                        <i class="bi bi-chevron-compact-down"></i>
                                                     </a>
                                                     <div class="yena-megamenu_wrap">
                                                         <ul class="yena-megamenu">
@@ -463,7 +465,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a class="" href="javascript:void(0)">Conócenos <i class="lastudioicon-down-arrow"></i></a>
+                                                <li><a class="" href="javascript:void(0)">Conócenos <i class="bi bi-chevron-compact-down"></i></a>
                                                     <ul class="yena-dropdown">
                                                         <li><a href="about-us.html">Acerca de nosotros</a></li>
                                                         <li><a href="our-services.html">Servicios</a></li>
@@ -472,7 +474,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                                         <li><a href="contact-us.html">Contacto</a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="megamenu-holder position-static"><a class="" href="shop-fullwidth.html">Shop <i class="lastudioicon-down-arrow"></i></a>
+                                                <li class="megamenu-holder position-static"><a class="" href="shop-fullwidth.html">Shop <i class="bi bi-chevron-compact-down"></i></a>
                                                     <div class="yena-megamenu_wrap">
                                                         <ul class="yena-megamenu yena-megamenu-2">
                                                             <li>
@@ -524,7 +526,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                                         </ul>
                                                     </div>
                                                 </li>
-                                                <li><a class="" href="javascript:void(0)">Blog <i class="lastudioicon-down-arrow"></i></a>
+                                                <li><a class="" href="javascript:void(0)">Blog <i class="bi bi-chevron-compact-down"></i></a>
                                                     <ul class="yena-dropdown">
                                                         <li><a href="blog-grid-basic.html">Blog Grid Basic</a></li>
                                                         <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
@@ -561,7 +563,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                             <li class="minicart-wrap">
                                                 <a href="#miniCart" class="minicart-btn toolbar-btn">
                                                     <div class="minicart-count_area">
-                                                        <i class="lastudioicon-bag-20"></i>
+                                                        <i class="bi bi-bag-heart-fill"></i>
                                                         <?php echo $Noti ?>
                                                     </div>
                                                 </a>
@@ -577,14 +579,14 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
 
                                             <li class="mobile-menu_wrap d-inline-block d-xl-none">
                                                 <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn">
-                                                    <i class="lastudioicon-menu-4-1"></i>
+                                                    <i class="bi bi-three-dots-vertical"></i>
                                                 </a>
                                             </li>
 
                                             <li class="menu-wrap">
                                                 <a href="#offcanvasMenu" class="menu-btn toolbar-btn d-none d-xl-block">
                                                     <div class="minicart-count_area">
-                                                        <i class="lastudioicon-menu-4-1"></i>
+                                                        <i class="bi bi-three-dots-vertical"></i>
                                                     </div>
                                                 </a>
                                             </li>
@@ -601,7 +603,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
 <!--MINI CARRITO -->
             <div class="offcanvas-minicart_wrapper" id="miniCart">
                 <div class="offcanvas-menu-inner">
-                    <a href="#" class="btn-close"><i class="lastudioicon-e-remove"></i></a>
+                    <a href="#" class="btn-close"><i class="bi bi-file-x"></i></a>
                     <div class="minicart-content">
                         <div class="minicart-heading">
                             <h4>Carrito</h4>
@@ -619,7 +621,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                 ?>
                             <li class="minicart-product">
                                <!-- <a class="product-item_remove" href="javascript:void(0)"><i
-                                    class="lastudioicon-e-remove"></i></a> -->
+                                    class="bi bi-file-x"></i></a> -->
                                 <div class="product-item_img">
                                     <img class="img-full" src="assets/images/product/small-size/1.jpg" alt="Yena's Product Image">
                                 </div>
@@ -653,11 +655,11 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
 
             <div class="mobile-menu_wrapper" id="mobileMenu">
                 <div class="offcanvas-menu-inner">
-                    <a href="#" class="btn-close-2"><i class="lastudioicon-e-remove"></i></a>
+                    <a href="#" class="btn-close-2"><i class="bi bi-file-x"></i></a>
                     <nav class="offcanvas-navigation">
                         <ul class="mobile-menu">
                             <li class="menu-item-has-children active"><a href="#"><span
-                                    class="mm-text">Home <i class="lastudioicon-down-arrow"></i></span></a>
+                                    class="mm-text">Home <i class="bi bi-chevron-compact-down"></i></span></a>
                                 <ul class="sub-menu">
                                     <li>
                                         <a href="index.html">
@@ -703,7 +705,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">
-                                    <span class="mm-text">Pages <i class="lastudioicon-down-arrow"></i></span>
+                                    <span class="mm-text">Pages <i class="bi bi-chevron-compact-down"></i></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li>
@@ -740,7 +742,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">
-                                    <span class="mm-text">Collection <i class="lastudioicon-down-arrow"></i></span>
+                                    <span class="mm-text">Collection <i class="bi bi-chevron-compact-down"></i></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li>
@@ -752,12 +754,12 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">
-                                    <span class="mm-text">Shop <i class="lastudioicon-down-arrow"></i></span>
+                                    <span class="mm-text">Shop <i class="bi bi-chevron-compact-down"></i></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            <span class="mm-text">Top Category <i class="lastudioicon-down-arrow"></i></span>
+                                            <span class="mm-text">Top Category <i class="bi bi-chevron-compact-down"></i></span>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -794,7 +796,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            <span class="mm-text">Shop Layout <i class="lastudioicon-down-arrow"></i></span>
+                                            <span class="mm-text">Shop Layout <i class="bi bi-chevron-compact-down"></i></span>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -831,7 +833,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            <span class="mm-text">Product Layout <i class="lastudioicon-down-arrow"></i></span>
+                                            <span class="mm-text">Product Layout <i class="bi bi-chevron-compact-down"></i></span>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -878,7 +880,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">
-                                            <span class="mm-text">Shop Pages <i class="lastudioicon-down-arrow"></i></span>
+                                            <span class="mm-text">Shop Pages <i class="bi bi-chevron-compact-down"></i></span>
                                         </a>
                                         <ul class="sub-menu">
                                             <li>
@@ -917,7 +919,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">
-                                    <span class="mm-text">Blog <i class="lastudioicon-down-arrow"></i></span>
+                                    <span class="mm-text">Blog <i class="bi bi-chevron-compact-down"></i></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children has-children">
@@ -954,7 +956,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                             <li class="menu-item-has-children active">
                                 <a href="#">
                                     <span class="mm-text">User Setting 
-                                    <i class="lastudioicon-down-arrow"></i>
+                                    <i class="bi bi-chevron-compact-down"></i>
                                 </span>
                                 </a>
                                 <ul class="sub-menu">
@@ -973,7 +975,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                             <li class="menu-item-has-children">
                                 <a href="#">
                                     <span class="mm-text">Currency 
-                                    <i class="lastudioicon-down-arrow"></i>
+                                    <i class="bi bi-chevron-compact-down"></i>
                                 </span>
                                 </a>
                                 <ul class="sub-menu">
@@ -992,7 +994,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                             <li class="menu-item-has-children">
                                 <a href="#">
                                     <span class="mm-text">Language 
-                                    <i class="lastudioicon-down-arrow"></i>
+                                    <i class="bi bi-chevron-compact-down"></i>
                                 </span>
                                 </a>
                                 <ul class="sub-menu">
@@ -1025,7 +1027,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
 <!--MENU DE AYUDA-->
             <div class="offcanvas-menu_wrapper" id="offcanvasMenu">
                 <div class="offcanvas-menu-inner">
-                    <a href="#" class="btn-close"><i class="lastudioicon-e-remove"></i></a>
+                    <a href="#" class="btn-close"><i class="bi bi-file-x"></i></a>
                     <div class="offcanvas-inner_nav">
                         <ul>
                             
@@ -1063,22 +1065,22 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
                             <ul>
                                 <li class="facebook">
                                     <a href="https://www.facebook.com" data-bs-toggle="tooltip" target="_blank" title="Facebook">
-                                        <i class="lastudioicon-b-facebook"></i>
+                                        <i class="bi bi-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="twitter">
                                     <a href="https://twitter.com" data-bs-toggle="tooltip" target="_blank" title="Twitter">
-                                        <i class="lastudioicon-b-twitter"></i>
+                                        <i class="bi bi-twitter"></i>
                                     </a>
                                 </li>
                                 <li class="instagram">
                                     <a href="https://www.instagram.com/" data-bs-toggle="tooltip" target="_blank" title="Instagram">
-                                        <i class="lastudioicon-b-instagram"></i>
+                                        <i class="bi bi-instagram"></i>
                                     </a>
                                 </li>
                                 <li class="instagram">
                                     <a href="https://vimeo.com/" data-bs-toggle="tooltip" target="_blank" title="Vimeo">
-                                        <i class="lastudioicon-b-vimeo"></i>
+                                        <i class="bi bi-cast"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -1099,13 +1101,13 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="lastudio
             <div class="offcanvas-search_wrapper" id="searchBar">
                 <div class="offcanvas-menu-inner">
                     <div class="container h-100">
-                        <a href="#" class="btn-close"><i class="lastudioicon-e-remove"></i></a>
+                        <a href="#" class="btn-close"><i class="bi bi-file-x"></i></a>
                         <!-- Begin Offcanvas Search Area -->
                         <div class="offcanvas-search">
                             <span class="searchbox-info">Start typing and press Enter to search</span>
                             <form action="#" class="hm-searchbox">
                                 <input type="text" placeholder="Search">
-                                <button class="search_btn" type="submit"><i class="lastudioicon-zoom-1"></i></button>
+                                <button class="search_btn" type="submit"><i class="bi bi-search"></i></button>
                             </form>
                         </div>
                         <!-- Offcanvas Search Area End Here -->

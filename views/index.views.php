@@ -135,7 +135,7 @@ include "header.php";
                                                                 <li class="Yena's-view-btn"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View" onclick="mostrarproducto(<?php echo $mostrar_pac[0]; ?>)"><i
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
-                                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                                 </li>
@@ -199,7 +199,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -233,7 +233,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -267,7 +267,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -301,7 +301,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -336,7 +336,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -370,7 +370,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -404,7 +404,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -439,7 +439,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -498,7 +498,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -532,7 +532,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -567,7 +567,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -601,7 +601,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -635,7 +635,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -670,7 +670,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -705,7 +705,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -739,7 +739,7 @@ include "header.php";
                                                                         class="lastudioicon-eye"></i></a>
                                                                 </li>
                                                                 <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i
-                                                                        class="lastudioicon-heart-2"></i></a>
+                                                                        class="bi bi-suit-heart-fill"></i></a>
                                                                 </li>
                                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i
                                                                         class="lastudioicon-compare"></i></a>
@@ -833,7 +833,7 @@ include "header.php";
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                 </li>
@@ -865,7 +865,7 @@ include "header.php";
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                 </li>
@@ -897,7 +897,7 @@ include "header.php";
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                 </li>
@@ -928,7 +928,7 @@ include "header.php";
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                 </li>
@@ -959,7 +959,7 @@ include "header.php";
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                 </li>
@@ -990,7 +990,7 @@ include "header.php";
                                                 <li class="Yena's-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="top" title="Yena's View"><i
                                                         class="lastudioicon-eye"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="lastudioicon-heart-2"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="bi bi-suit-heart-fill"></i></a>
                                                 </li>
                                                 <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Compare"><i class="lastudioicon-compare"></i></a>
                                                 </li>

@@ -190,6 +190,17 @@ include "header.php";
                                             <td class="cart-product-total"><span class="amount">£165.00</span></td>
                                         </tr>
                                     </tbody>
+                                    <tbody>
+                                        <tr class="cart_item hidden">
+                                            <td class="cart-product-name totalEnviaYA"> </td>
+                                            <td class="cart-product-total totalEnviaYA"><span class="amount"></span></td>
+                                        </tr>
+                                        <tr class="cart_item">
+                                            <td class="cart-product-name"> Vestibulum suscipit<strong class="product-quantity">
+                                            × 1</strong></td>
+                                            <td class="cart-product-total"><span class="amount">£165.00</span></td>
+                                        </tr>
+                                    </tbody>
                                     <tfoot>
                                         <tr class="cart-subtotal">
                                             <th>Cart Subtotal</th>
@@ -338,22 +349,22 @@ include "header.php";
                                     <ul>
                                         <li class="facebook">
                                             <a href="https://www.facebook.com" data-bs-toggle="tooltip" target="_blank" title="Facebook">
-                                                <i class="lastudioicon-b-facebook"></i>
+                                                <i class="bi bi-facebook"></i>
                                             </a>
                                         </li>
                                         <li class="twitter">
                                             <a href="https://twitter.com" data-bs-toggle="tooltip" target="_blank" title="Twitter">
-                                                <i class="lastudioicon-b-twitter"></i>
+                                                <i class="bi bi-twitter"></i>
                                             </a>
                                         </li>
                                         <li class="instagram">
                                             <a href="https://www.instagram.com/" data-bs-toggle="tooltip" target="_blank" title="Instagram">
-                                                <i class="lastudioicon-b-instagram"></i>
+                                                <i class="bi bi-instagram"></i>
                                             </a>
                                         </li>
                                         <li class="instagram">
                                             <a href="https://vimeo.com/" data-bs-toggle="tooltip" target="_blank" title="Vimeo">
-                                                <i class="lastudioicon-b-vimeo"></i>
+                                                <i class="bi bi-cast"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -466,30 +477,30 @@ include "header.php";
                 <ul>
                     <li>
                         <a href="login-register.html">
-                            <i class="lastudioicon-circle-10"></i>
+                            <i class="bi bi-circle-half"></i>
                         </a>
                     </li>
                     <li>
                         <a href="#searchBar" class="search-btn toolbar-btn">
-                            <i class="lastudioicon-zoom-1"></i>
+                            <i class="bi bi-search"></i>
                         </a>
                     </li>
                     <li class="with-counter">
                         <a href="wishlist.html">
-                            <i class="lastudioicon-heart-2"></i>
+                            <i class="bi bi-suit-heart-fill"></i>
                             <span class="cart-item_count">3</span>
                         </a>
                     </li>
                     <li class="with-counter">
                         <a href="compare.html">
-                            <i class="lastudioicon-chart-bar-32-2"></i>
+                            <i class="bi bi-flower3"></i>
                             <span class="cart-item_count">3</span>
                         </a>
                     </li>
                     <li class="minicart-wrap with-counter">
                         <a href="#miniCart" class="minicart-btn toolbar-btn position-relative">
                             <div class="minicart-count_area">
-                                <i class="lastudioicon-bag-20"></i>
+                                <i class="bi bi-bag-heart-fill"></i>
                                 <span class="cart-item_count">3</span>
                             </div>
                         </a>
@@ -500,7 +511,7 @@ include "header.php";
         <!-- Footer Area End Here -->
 
         <!-- Scroll To Top Start -->
-        <a class="scroll-to-top" href=""><i class="lastudioicon-up-arrow"></i></a>
+        <a class="scroll-to-top" href=""><i class="bi bi-chevron-compact-up"></i></a>
         <!-- Scroll To Top End -->
 
     </div>
