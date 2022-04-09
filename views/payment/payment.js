@@ -5,8 +5,7 @@ const stripe = Stripe("pk_test_51Kb6O2Cuu9QiirsWFCOOAIhyPiMRouhxrSUVNntXt5JrYXtW
 // objeto para enviar payment.php y pueda general el objeto pago de Stripe correctamente
 peticion={
   "metodoPago":"card",
-  "folio":1401,
-  "monto": 100,
+  "monto": document.querySelector("#monto").value,
   "facturacion":0,
   "paqueteria":'ups',
 };
@@ -15,6 +14,7 @@ peticion={
 // path para pasarle a la funcion de confirmar pago de Stripe con las variables nesesarias por metodo GET
 var path = "http://localhost/tiendaweb/views/payment/completed_payment.php?"
 +"id_pedido="+peticion["folio"]
+;
 
 //aqui se pueden crear mas variables
 // +"&monto="+peticion["monto"] // en completed_payment.php se pide como $_GET['monto'];
@@ -99,7 +99,6 @@ function mostrarPago(e){
 
 
 
-
 // envia ya --------------------------------------------------------------------------------------------------
 var upsTotal;
 var fedexTotal;
@@ -118,24 +117,11 @@ var upsCurrency;
 
 document.querySelector('#codigo_postal').addEventListener('change',registra);
 function registra(){
-  // console.log("post 1");
-  // // obtener valores y validar
-  // var nombre= document.getElementById("nombre").value;
-  // var telefono= document.getElementById("telefono").value;
-  // var correo= document.getElementById("correo").value;
-  // var comentario= document.getElementById("comentario").value;
-  // if(nombre==""){
-    //     alert("el nombre es obligatorio"); return;}
-    // if(telefono.length!=10){
-      //     alert("el telefono debe tener 10 digitos"); return;}
-      // if(correo==""){
-        //     alert("el correo es obligatorio"); return;}
-        
         console.log("conectando con envia ya...");
         
         var count = "UAPAFOCO";
         // crear peticion 
-        var peticion = {
+        var pet = {
           "enviaya_account": count,
           "carrier_account": null,
           "api_key":"8df122319cfc6c283f613956d598dfad",
@@ -151,15 +137,6 @@ function registra(){
                 "width":"30",
                 "dimension_unit":"cm"
               },
-              //   {
-                //     "quantity":"1",
-                //     "weight":"5",
-                //     "weight_unit":"kg",
-                //     "length":"30",
-                //     "height":"400",
-                //     "width":"10",
-                //     "dimension_unit":"cm"
-                //   }
               ]
             },
             "origin_direction":{
@@ -179,7 +156,7 @@ function registra(){
         //   "intelligent_filtering":true
       }
       
-      $.post('https://enviaya.com.mx/api/v1/rates',peticion,
+      $.post('https://enviaya.com.mx/api/v1/rates',pet,
       function(data){
         console.log(data);
         
@@ -228,7 +205,6 @@ function registra(){
 
 
     });
-    // console.log("finish");
   }
 
 
@@ -236,27 +212,37 @@ function registra(){
   console.log(paqueteria);
   paqueteria.forEach(input => input.addEventListener('click',(e)=>{
     peticion['paqueteria']=e.target.value;
-    //codigo para mostrar total ------------------------------------------------------------------------
+
+        //codigo para mostrar el total sumandole la paqueteria------------------------------------------------------------
 
         if(T[0].contains(i)) T[0].removeChild(i);
-        // // visualizar o esconder el pago de paypal 
+        // visualizar o esconder el pago de paypal 
         if(e.target.value=='fedex'){
           i.src = src[1];
           T[1].textContent=fedexCurrency+' '+ fedexTotal;
           totalCuenta.textContent = fedexTotal+montoTotal;
+          
+          //agregando el nuevo monto al path de completd payment
+          peticion['monto']=fedexTotal+montoTotal;
+
+
         }else{
           i.src = src[0];
           T[1].textContent=upsCurrency+' '+ upsTotal;
           totalCuenta.textContent = upsTotal+montoTotal;
-        }
 
+          //agregando el nuevo monto al path de completd payment
+          peticion['monto']=upsTotal+montoTotal;
+
+
+        }
         T[0].appendChild(i);
         document.querySelector('#muestraEnviaYa').classList.remove('hidden');
-    //codigo para mostrar total ------------------------------------------------------------------------
+        //codigo para mostrar el total sumandole la paqueteria------------------------------------------------------------
   
 
   }));
-  // envia ya --------------------------------------------------------------------------------------------------
+// envia ya --------------------------------------------------------------------------------------------------
     
     
 
@@ -281,11 +267,19 @@ function registra(){
     
     
     // desabilitar y habilitar el boton de pago de stripe-------------------------------------------------------------------------
-    // document.querySelector("#submit").disabled = true;
+    document.querySelector("#submit").disabled = true;
+
+
     
     // escuchar por un cambio en el formulario para ejecutar la funcion de habilitar el boton si estan llenos los campos
     document.querySelector("#telefono").addEventListener("change", stateHandle);
-    
+    document.querySelector("#correo").addEventListener("change", stateHandle);
+    document.querySelector("#codigo_postal").addEventListener("change", stateHandle);
+    document.querySelector("#cuidad").addEventListener("change", stateHandle);
+    document.querySelector("#derreccion").addEventListener("change", stateHandle);
+    document.querySelector("#apellido").addEventListener("change", stateHandle);
+    document.querySelector("#nombre").addEventListener("change", stateHandle);
+    document.querySelector("#submit").addEventListener("change", stateHandle);
     
     // validar que esten llenos los campos del formulario para habilitar el boton de la api
     function stateHandle() {  
@@ -384,15 +378,13 @@ paypal.Buttons({
 async function initialize() {
 
     setLoading(true);
-    console.log('dentro');
-    //hacer la conexion con al archivo php
+    //hacer la conexion con al archivo payment.php
     const resultado = await $.post('http://localhost/tiendaweb/views/payment/payment.php',peticion,
         function(data){ 
-              
-          console.log(data);
+          // console.log(data);
               var crear = JSON.parse(data);
-              console.log(data);
-              console.log(crear);
+              // console.log(data);
+              // console.log(crear);
               elements = stripe.elements( {"clientSecret":crear.clientSecret} );
               const paymentElement = elements.create("payment");
               console.log(paymentElement);
@@ -420,56 +412,58 @@ async function initialize() {
 
 
 //// confirmar el pago -------------------------------------------------------------------------------------------------
-      async function handleSubmit(e) {
-        e.preventDefault();
-        setLoading(true);
-      
-        const { error } = await stripe.confirmPayment({
-          elements,
-          confirmParams: {return_url: 
-            path
-            +"&facturacion="+peticion["facturacion"]
-            +"&metodoPago="+peticion["metodoPago"]
-            +"&paqueteria="+peticion["paqueteria"]
-            ,},
-        });
-      
+async function handleSubmit(e) {
+  e.preventDefault();
+  setLoading(true);
+
+  const { error } = await stripe.confirmPayment({
+    elements,
+    confirmParams: {return_url: 
+      path
+      +"&facturacion="+peticion["facturacion"]
+      +"&metodoPago="+peticion["metodoPago"]
+      +"&paqueteria="+peticion["paqueteria"]
+      +"&monto="+peticion["monto"]
+      ,},
+  });
+
 // si hay un error pasara a esta parte
-        if (error.type === "card_error" || error.type === "validation_error") {
-          showMessage(error.message);
-        } else {
-          showMessage("An unexpected error occured.");
-        }
+  if (error.type === "card_error" || error.type === "validation_error") {
+    showMessage(error.message);
+  } else {
+    showMessage("An unexpected error occured.");
+  }
+
+  setLoading(false);
+}
       
-        setLoading(false);
-      }
-      
-      async function checkStatus() {
-        const clientSecret = new URLSearchParams(window.location.search).get(
-          "payment_intent_client_secret"
-          );
-          
-          if (!clientSecret) {
-            return;
-          }
-      
-          const { paymentIntent } = await stripe.retrievePaymentIntent(clientSecret);
-          
-          switch (paymentIntent.status) {
-            case "succeeded":
-              showMessage("Payment succeeded!");
+async function checkStatus() {
+
+  const clientSecret = new URLSearchParams(window.location.search).get(
+    "payment_intent_client_secret"
+    );
+    
+    if (!clientSecret) {
+      return;
+    }
+
+    const { paymentIntent } = await stripe.retrievePaymentIntent(clientSecret);
+    
+    switch (paymentIntent.status) {
+      case "succeeded":
+        showMessage("Payment succeeded!");
+        break;
+        case "processing":
+          showMessage("Your payment is processing.");
+          break;
+          case "requires_payment_method":
+            showMessage("Your payment was not successful, please try again.");
+            break;
+            default:
+              showMessage("Something went wrong.");
               break;
-              case "processing":
-                showMessage("Your payment is processing.");
-                break;
-                case "requires_payment_method":
-                  showMessage("Your payment was not successful, please try again.");
-                  break;
-                  default:
-                    showMessage("Something went wrong.");
-                    break;
-                  }
-                }
+    }
+}
 //// confirmar el pago -------------------------------------------------------------------------------------------------
 
 
