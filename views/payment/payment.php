@@ -42,7 +42,6 @@ try {
             $_POST['metodoPago'],
         ],
         'customer' => $id_stripe[0] ?? 'cus_LOTPG1BEiSXxO3',
-        'description'=>$_POST["folio"]?? 'publico general',
     ]);
 
     $output = [

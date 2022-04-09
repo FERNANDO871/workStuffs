@@ -5,11 +5,10 @@ const stripe = Stripe("pk_test_51Kb6O2Cuu9QiirsWFCOOAIhyPiMRouhxrSUVNntXt5JrYXtW
 // objeto para enviar payment.php y pueda general el objeto pago de Stripe correctamente
 peticion={
   "metodoPago":"card",
-  "monto": document.querySelector("#monto").value,
+  "monto": document.querySelector("#monto").textContent,
   "facturacion":0,
-  "paqueteria":'ups',
+  "paqueteria":'hola ',
 };
-
 
 // path para pasarle a la funcion de confirmar pago de Stripe con las variables nesesarias por metodo GET
 var path = "http://localhost/tiendaweb/views/payment/completed_payment.php?"
@@ -107,7 +106,7 @@ const imageFedex = document.createElement('img');
 const i = document.createElement('img');
 i.classList.add('enviaYaImagen');
 const T = document.querySelectorAll('.enviaYaTotal');
-var totalCuenta = document.getElementById('toTAL');
+var totalCuenta = document.getElementById('monto');
 var montoTotal = parseInt(totalCuenta.textContent);
 var src = [];
 var totalCuenta;
@@ -115,16 +114,16 @@ var fedexCurrency;
 var upsCurrency;
 
 
-document.querySelector('#codigo_postal').addEventListener('change',registra);
+
 function registra(){
         console.log("conectando con envia ya...");
         
-        var count = "UAPAFOCO";
+        var count = "2O5VZOY4";
         // crear peticion 
         var pet = {
           "enviaya_account": count,
           "carrier_account": null,
-          "api_key":"8df122319cfc6c283f613956d598dfad",
+          "api_key":"9d233dd92dd1d117ff70fe586a6729b0",
           "shipment":{
             "shipment_type":"Package",
             "parcels":[
@@ -209,7 +208,7 @@ function registra(){
 
 
   const paqueteria = document.querySelectorAll('input[name="paqueteria[paqueteria]"]');
-  console.log(paqueteria);
+  // console.log(paqueteria);
   paqueteria.forEach(input => input.addEventListener('click',(e)=>{
     peticion['paqueteria']=e.target.value;
 
@@ -267,14 +266,14 @@ function registra(){
     
     
     // desabilitar y habilitar el boton de pago de stripe-------------------------------------------------------------------------
-    document.querySelector("#submit").disabled = true;
+    // document.querySelector("#submit").disabled = true;
 
 
     
     // escuchar por un cambio en el formulario para ejecutar la funcion de habilitar el boton si estan llenos los campos
+    document.querySelector("#codigo_postal").addEventListener("change", ()=>{stateHandle();registra()});
     document.querySelector("#telefono").addEventListener("change", stateHandle);
     document.querySelector("#correo").addEventListener("change", stateHandle);
-    document.querySelector("#codigo_postal").addEventListener("change", stateHandle);
     document.querySelector("#cuidad").addEventListener("change", stateHandle);
     document.querySelector("#derreccion").addEventListener("change", stateHandle);
     document.querySelector("#apellido").addEventListener("change", stateHandle);

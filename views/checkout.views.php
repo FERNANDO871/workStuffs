@@ -213,13 +213,8 @@ include "header.php";
                                         </tr>
                                         <tr class="order-total">
                                             <th>Order Total</th>
-                                            <td><strong><span class="amount">$ <span id="toTAL"><?php echo $TotalForm  ?></span></span></strong> 
-            <!-- enviar el monto a payment.php -->
-                                        
-                                                <input type="" id="monto" name="monto" value =  <?php echo $TotalForm  ?> ></input>
-                                         
-                                            
-            <!-- enviar el monto a payment.php -->                            
+                                            <td><strong><span class="amount">$ <span id="monto">190</span></span></strong> 
+                          
                                         
                                         </td>
                                         </tr>
@@ -227,7 +222,7 @@ include "header.php";
                                 </table>
                             </div>
         <!-- aqui se inserta los valores de envia ya que regresa la api -->
-        <div id="enviaYA" class="hidden">
+        <div id="enviaYA" class="">
         <table class="table">
         <thead>
                     <tr>

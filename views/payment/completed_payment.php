@@ -53,16 +53,16 @@ try{
 
 
 //generar el pedido en la BD ---------------------------------------------------------------------------------------
-// $query3= "INSERT INTO pedido (Fecha, IdClt, Estatus, Cantidad, Numero, serie, folio, facturacion, paqueteria) VALUES (
-//                        '$fechaActual',$idcliente,'1',$monto, '1',100,'$Folio','$facturacion', '$paqueteria')";
-// $consulta3 = mysqli_query($data, $query3);
+$query3= "INSERT INTO pedido (Fecha, IdClt, Estatus, Cantidad, Numero, serie, folio, facturacion, paqueteria) VALUES (
+                       '$fechaActual','$idcliente','1','$monto', '1','100','$Folio','$facturacion', '$paqueteria')";
+$consulta3 = mysqli_query($data, $query3);
 //generar el pedido en la BD -----------------------------------------------------------------------------------------
 
 
 
 //actualizar el estadus a 2 con el id del cliente en la tabla carrito--------------------------------------------------------
-// $query1 = "UPDATE carrito SET Estatus=2, pedido='$Folio'  WHERE idClt=$idcliente and Estatus=1 ";
-// $consulta = mysqli_query($data, $query1);
+$query1 = "UPDATE carrito SET Estatus=2, pedido='$Folio'  WHERE idClt=$idcliente and Estatus=1 ";
+$consulta = mysqli_query($data, $query1);
 //actualizar el estadus a 2 con el id del cliente en la tabla carrito--------------------------------------------------------
 
 
@@ -70,7 +70,7 @@ try{
 
 
 //comentar esta linea para ver los valores en la pantalla
-// header("location: http://localhost/tiendaweb/");
+header("location: http://localhost/tiendaweb/my-account.php");
 
 ?>
 
