@@ -43,7 +43,7 @@ if(isset($_POST['email'])){
                     
                     //Recipients
                     $mail->setFrom('ozoniumtest@gmail.com', 'test');
-                    $mail->addAddress($email, 'fer');     //Add a recipient
+                    $mail->addAddress($email, '');     //Add a recipient
                     // $mail->addAddress('vegafernando871@gmail.com');               //Name is optional
                     // $mail->addReplyTo('info@example.com', 'Information');
                     // $mail->addCC('cc@example.com');
