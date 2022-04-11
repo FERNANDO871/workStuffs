@@ -191,12 +191,14 @@ function registra(){
         imagenes[1].appendChild(imageUps);
         
         const precios = document.querySelectorAll('.preciosEnviaYA');
-        precios[0].textContent=fedexTotal;
-        precios[1].textContent=upsTotal;
+        precios[0].textContent=fedexTotal+' '+fedexCurrency;
+        precios[1].textContent=upsTotal+' '+upsCurrency;
         
         const date = document.querySelectorAll('.dateEnviaYA');
-        date[0].textContent=fedex2['date'];
-        date[1].textContent=ups2['date'];
+        date[0].textContent=fedex2['date'].substring(0,10);
+        date[1].textContent=ups2['date'].substring(0,10);
+        console.log(fedex2['date']);
+        console.log(typeof(fedex2['date']));
         
         const precio = document.querySelector('#enviaYA');
         
@@ -266,7 +268,7 @@ function registra(){
     
     
     // desabilitar y habilitar el boton de pago de stripe-------------------------------------------------------------------------
-    // document.querySelector("#submit").disabled = true;
+    document.querySelector("#submit").disabled = true;
 
 
     
@@ -334,7 +336,7 @@ paypal.Buttons({
         return actions.order.create({
             purchase_units: [{
             amount: {
-                value: '100',
+                value: peticion['monto'],
             }
             }]
         });
@@ -342,8 +344,13 @@ paypal.Buttons({
 
     onApprove: (data, actions)=>{
         return actions.order.capture().then(function(detalles){
-            console.log(detalles);
-            alert('pago exitoso')
+            location.href=
+              path
+              +"&facturacion="+peticion["facturacion"]
+              +"&metodoPago="+peticion["metodoPago"]
+              +"&paqueteria="+peticion["paqueteria"]
+              +"&monto="+peticion["monto"]
+              ;
         })
     },
     onCancel: function(data){

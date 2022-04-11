@@ -152,9 +152,9 @@ textarea.textarea-field {
   border: 1px solid #e5e5e5;
 }
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
   display: none;
-}
+} */
 
 input[type="checkbox"] + label {
   position: relative;
@@ -165,7 +165,7 @@ input[type="checkbox"] + label {
   margin: 0;
 }
 
-input[type="checkbox"] + label:before {
+/* input[type="checkbox"] + label:before {
   position: absolute;
   left: 0;
   top: 0;
@@ -174,9 +174,9 @@ input[type="checkbox"] + label:before {
   display: block;
   border: 2px solid #e5e5e5;
   content: "";
-}
+} */
 
-input[type="checkbox"] + label:after {
+/* input[type="checkbox"] + label:after {
   position: absolute;
   left: 0;
   top: 0;
@@ -190,7 +190,7 @@ input[type="checkbox"] + label:after {
   width: 20px;
   text-align: center;
   color: #13aff0;
-}
+} */
 
 input[type="checkbox"]:checked + label:before {
   border: 2px solid #e5e5e5;
@@ -431,7 +431,7 @@ button,
 }
 
 /* ---Base Transition--- */
-a,
+/* a,
 button,
 i, input[type="checkbox"] + label:before, input[type="checkbox"] + label:after, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus > .qtybutton, .price-filter .ui-slider-range, .price-filter .ui-slider-handle, .price-filter .price-slider-amount .filter-btn, .img-hover_effect:before, .img-hover_effect .banner-img:before, .img-hover_effect .banner-img:after, .img-zoom_effect:before, .global-overlay, .slick-dots li, .popup_wrapper, .popup_wrapper .test .popup_off, .popup_wrapper .subscribe-area .subscribe-content .subscribe-form-group form.subscribe-form button, .yena-btn, .load-more_wrap .inner-wrap > a.yena-btn:before, .load-more_wrap .inner-wrap > a.yena-btn:after, .arrow-style-2 .slick-arrow, .btn-close, .btn-close > i, .offcanvas-navigation .mobile-menu li > .menu-expand, .offcanvas-menu_wrapper .offcanvas-menu-inner, .offcanvas-menu_wrapper .offcanvas-menu-inner .offcanvas-inner_nav ul li > ul li, .offcanvas-menu_wrapper .offcanvas-menu-inner .offcanvas-inner_nav ul li > a > i, .offcanvas-menu_wrapper .offcanvas-menu-inner .offcanvas-inner_banner .inner-img:before, .offcanvas-minicart_wrapper .offcanvas-menu-inner .minicart-content .minicart-list > li.minicart-product .product-item_img, .banner-area-5.banner-bg-1 .banner-item .banner-content .popup-btn, .banner-area-14 .banner-bg-3 .banner-item .banner-content .popup-btn, .banner-area-15 .banner-item .inner-item .banner-with-video_popup .banner-content .banner-inner_content .popup-btn, .banner-area-16 .banner-item .banner-inner_img, .product-item .single-product, .product-item .single-product .product-img > a img.secondary-img, .product-item .single-product .product-img .add-actions > ul > li, .review-body .user-feedback form.feedback-form .comment-field textarea.textarea-field, .brand-area .brand-item, .newsletter-form_wrap .subscribe-form .newsletter-btn, .modal-wrapper.modal, .modal-wrapper .modal-dialog .modal-content .modal-body .close, .modal-wrapper .modal-dialog .modal-content .modal-body .modal-inner-area .sp-img_slider-nav .slick-slide img, .modal-wrapper .modal-dialog .modal-content .modal-body .modal-inner-area .sp-content .yena-social_btn > ul > li, .modal-wrapper .modal-dialog .modal-content .modal-body .modal-inner-area .sp-content .yena-social_btn > ul > li .dropdown, .modal-wrapper .modal-dialog .modal-content .modal-body .modal-inner-area .sp-content .yena-social_btn > ul > li .dropdown > li, .instagram-area .instagram-img:before, .instagram-area .instagram-img .add-action, .hot-deal_area.hot-deal_area-2 .hot-deal_item .hot-deal_img .inner-img:before, .popular-categories_area .popular-categories_item .popular-categories_content ul.product-category > li, .popular-categories_area.popular-categories_area-2 .popular-categories_item .popular-categories_content ul.product-category > li, .header-top_right .ht-menu > ul > li .yena-dropdown, .header-top_right .ht-menu > ul > li .yena-dropdown > li, .header-right_area > ul > li .yena-dropdown, .header-right_area > ul > li .yena-dropdown > li, .main-nav > ul > li .yena-dropdown, .main-nav > ul > li .yena-dropdown > li, .main-nav > ul > li.megamenu-holder .yena-megamenu_wrap, .main-nav > ul > li.megamenu-holder.megamenu-gallery_holder .yena-megamenu_wrap .yena-megamenu > li.gallery-wrap > ul > li:before, .main-nav > ul > li.megamenu-holder.megamenu-gallery_holder .yena-megamenu_wrap .yena-megamenu > li.gallery-wrap > ul > li > a img, .main-nav > ul > li.megamenu-holder.megamenu-gallery_holder .yena-megamenu_wrap .yena-megamenu > li.gallery-wrap > ul > li span.inner-text, .main-header_area-2 .main-header .main-nav > ul > li > a span:before, .blog-item .single-blog, .blog-area .blog-item.border-on_hover .single-blog:before, .shop-toolbar .product-selection_wrap .product-selection_menu > nav.product-selection_nav > ul > li > ul.ps-dropdown, .shop-toolbar .product-selection_wrap .product-selection_menu > nav.product-selection_nav > ul > li > ul.ps-dropdown > li, .shop-product-wrap.listview > [class*="col-"] .list-product_item .single-product, .shop-product-wrap.listview > [class*="col-"] .list-product_item .single-product .product-img:before, .shop-product-wrap.listview > [class*="col-"] .list-product_item .single-product .product-img > a img.secondary-img, .shop-product-wrap.listview > [class*="col-"] .list-product_item .single-product .product-img .add-actions, .shop-product-wrap.listview > [class*="col-"] .list-product_item .single-product .product-img .add-actions > ul > li, .shop-product-wrap > [class*="col-"], .masonry-main_content .product-item .single-product .product-img:before, .masonry-main_content .product-item .single-product .product-img .add-actions.with-text, .masonry-main_content .product-item .single-product .product-img .add-actions.with-text .product-desc_info, .our-team_area .team-member_item:before, .our-team_area .team-member_item .team-member_content > h3.member-name, .our-team_area .team-member_item .team-member_content .social-link, .myaccount-tab-content, .login_btn,
 .register_btn, .coupon-all .coupon input.button,
@@ -439,7 +439,7 @@ i, input[type="checkbox"] + label:before, input[type="checkbox"] + label:after, 
   -webkit-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-}
+} */
 
 /* ---Section Title--- */
 .section-title {

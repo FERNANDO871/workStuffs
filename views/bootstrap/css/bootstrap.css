@@ -173,8 +173,7 @@ a {
 }
 
 a:hover {
-  color: #0056b                                                                                                                                            3;
-  text-decoration: underline;
+  color: #00056b;  
 }
 
 a:not([href]):not([tabindex]) {
@@ -4391,7 +4390,7 @@ input[type="button"].btn-block {
 }.card-body .left {
 width: 50%;
 }
-}.card-body .left .span {
+.card-body .left .span {
 position: relative;
 left: 50%;
 }

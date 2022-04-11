@@ -14,6 +14,7 @@ $idcliente = $_SESSION['id'];
 $facturacion= $_GET['facturacion']?? 0;
 $monto = $_GET['monto'] ?? null;
 $paqueteria= $_GET['paqueteria'] ?? 'UPS';
+$pago = $_GET['metodoPago'];
 //obtener los valores enviados desde checkout.php
 
 //setear la fecha actual para llenar el registro en la DB 
@@ -53,8 +54,8 @@ try{
 
 
 //generar el pedido en la BD ---------------------------------------------------------------------------------------
-$query3= "INSERT INTO pedido (Fecha, IdClt, Estatus, Cantidad, Numero, serie, folio, facturacion, paqueteria) VALUES (
-                       '$fechaActual','$idcliente','1','$monto', '1','100','$Folio','$facturacion', '$paqueteria')";
+$query3= "INSERT INTO pedido (Fecha, IdClt, Estatus, Cantidad, Numero, serie, folio, facturacion, paqueteria,pago) VALUES (
+                       '$fechaActual','$idcliente','1','$monto', '1','100','$Folio','$facturacion', '$paqueteria','$pago')";
 $consulta3 = mysqli_query($data, $query3);
 //generar el pedido en la BD -----------------------------------------------------------------------------------------
 

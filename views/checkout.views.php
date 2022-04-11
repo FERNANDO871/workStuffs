@@ -193,10 +193,6 @@ include "header.php";
                                     </tbody>
                                     <tbody>
                                         <tr class="cart_item">
-                                            <td class="cart-product-name totalEnviaYA"> </td>
-                                            <td class="cart-product-total totalEnviaYA"><span class="amount"></span></td>
-                                        </tr>
-                                        <tr class="cart_item">
                                             <td class="cart-product-name"> Vestibulum suscipit<strong class="product-quantity">
                                             × 1</strong></td>
                                             <td class="cart-product-total"><span class="amount">£165.00</span></td>
@@ -222,7 +218,7 @@ include "header.php";
                                 </table>
                             </div>
         <!-- aqui se inserta los valores de envia ya que regresa la api -->
-        <div id="enviaYA" class="">
+        <div id="enviaYA" class="hidden">
         <table class="table">
         <thead>
                     <tr>
@@ -309,17 +305,28 @@ include "header.php";
 <p class="p-3 mb-2 bg-dark text-white text-right" >payment</p>
 <div class="container">
   <div class="row">
-    <div class="col">
-                        <h6 class="shipmentMessegue amount card-product-total">si requiere facturacion llene los campos en 
-                        <a href="http://localhost/tiendaweb/my-account.php">my account</a> </h6>
+      <div class="col">
+          <h4 class="amount card-product-total texto_factuacion">si requiere facturacion llene los campos en 
+              <a href="http://localhost/tiendaweb/my-account.php"  ><h4 class="texto_factuacion enclaceMyaccoutn">my account</h4></a> </h4>
+            </div>
+        </div>
+        
+<div class="row">
+    <div class="col col-1">
+        <div class="form-check">
+            <input class="form-check-input facturacion texto_factuacion" type="checkbox" value="" id="flexCheckDefault">
+            </label>
+        </div>
     </div>
-    <div class="col col-4">
-                       <input class="form-check-input" type="checkbox" value='true' id="flexCheckDefault">
-                        <label class="form-check-label shipmentMessegue" for="flexCheckDefault">
-                            requiere facturacion?
-                        </label>
+    <div class="col">
+            <label class="form-check-label facturacion texto_factuacion" for="flexCheckDefault">
+                    <h5>¿requiere facturacion?</h5>
+            </label>
+
     </div>
   </div>
+</div>
+</div>
   <div class="row">
     <div class="col">
  

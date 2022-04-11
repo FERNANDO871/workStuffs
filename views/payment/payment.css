@@ -110,6 +110,21 @@
   text-align: center;
 
 }
+.facturacion{ 
+  width:1.2rem;
+  height:1.2rem;
+  font-size: 10px;
+  display: inline;
+}
+.texto_factuacion{
+  margin: 2rem 2rem;
+  display: inline;
+}
+.enclaceMyaccoutn{
+  color: rgb(13, 172, 198);
+
+}
+
   .spinner {
     color: #ffffff;
     font-size: 22px;

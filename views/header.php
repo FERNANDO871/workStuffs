@@ -154,6 +154,7 @@ $menucuenta='<li><a class="" href="javascript:void(0)">Cuenta <i class="bi bi-ch
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- <link rel="stylesheet" href="assets/css/style.min.css"> -->
+    
 
     <!-- link para agregar los estilos de pago para la pagina de pago exitoso (a la que se redirecciona su hubo un pago exitoso) -->
     <link rel="stylesheet" href="views/payment/payment.css">
