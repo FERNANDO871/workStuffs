@@ -14363,7 +14363,7 @@ i, input[type="checkbox"] + label:before, input[type="checkbox"] + label:after, 
 }
 
 .login-form label {
-  display: block;
+  display: inline-block;
   font-size: 14px;
   margin-bottom: 12px;
   font-weight: 500;

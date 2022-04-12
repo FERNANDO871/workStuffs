@@ -30,6 +30,25 @@ ul {
 .logo span {
     color: #35d4f0;
 }
+a[href="http://localhost/tiendaweb/login-register.php"]{
+    color:#35d4f0;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem 
+}
+
+
+  
+
+  
+a[href="http://localhost/tiendaweb/login-register.php"]:hover {
+    text-decoration: none;
+    background: #35d4f0;
+    color: #fff;
+
+  }
+  
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(92, 240, 23, 0.3);

@@ -36,6 +36,7 @@ if (isset($_POST['password']) && isset($_POST['password']) ){
         }else{$Error = 'math';}
         
     }
+    header('location: http://localhost/tiendaweb/login-register.php?cambioContraseña=1');
 }
 
 

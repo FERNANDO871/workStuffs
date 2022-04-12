@@ -81,6 +81,7 @@ if(isset($_POST['email'])){
         }else{
             $error = 'a user with this email does not exist';
         }
+        header('location: http://localhost/tiendaweb/login-register.php?enviarEmail=1');
 }
 ?>
 <!DOCTYPE html>
@@ -90,32 +91,36 @@ if(isset($_POST['email'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/bootstrap.min.css.map">
-    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../assets/css_web_admin/bootstrap.min.css.map">
+    <link rel="stylesheet" href="../../assets/css_web_admin/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css_web_admin/styles.css">
     <title>Document</title>
 </head>
     <body>
     <div class="content">
 
-<h1 class="logo">Reset the <span>Password</span></h1>
+<h1 class="logo">cambiar <span>contraseña</span></h1>
 
 <div class="contact-wrapper animated bounceInUp">
     <div class="contact-form colorLetra">
-        <h3 class="colorLetra">Type your email</h3>
+        <h3 class="colorLetra">introdusca su email</h3>
         <form action="enviarEmail.php" method="POST">
             <p>
-                <label class="colorLetra">Email Adress</label>
+                <label class="colorLetra">dirreccion de email</label>
                 <input type="email" name="email" placeholder="email">
             </p>
             <p class="block">
-                <button type="submit">Send</button>
+                <button type="submit">Enviar</button>
             </p>
             <p class="alert"><?PHP echo $error; ?></p>
         </form>
+
+            <div class="forgotton-password_info">
+                <a href="http://localhost/tiendaweb/login-register.php" class='logearse'> Login</a>
+            </div>
     </div>
     <div class="contact-info">
-        <h4 class="colorLetra">More Info</h4>
+        <h4 class="colorLetra">Maas Informacion</h4>
         <ul>
             <li><i class="fas fa-map-marker-alt colorLetra">Ozonium &#174;</i> </li>
             <li><i class="fas fa-phone colorLetra">(111) 111 111 111</i> </li>

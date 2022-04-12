@@ -26,6 +26,13 @@ include "header.php";
                         <form  class="mb-5" id="frmlog"  >
                             <div class="login-form">
                                 <h4 class="login-title">Iniciar Sesion</h4>
+                                <h4 class="login-title text-primary ">
+                                <?php
+                                if(isset($_GET['enviarEmail'])) echo 'Por favor revise su email';
+                                if(isset($_GET['cambioContraseña'])) echo 'Cambio de contraseña exitosa';
+                                ?>
+                              
+                                </h4>
                                 <div class="row">
                                     <div class="col-md-12 col-12">
                                         <label>Dirección de correo</label>
@@ -38,29 +45,20 @@ include "header.php";
                                         placeholder="Contraseña" id="txtpassword" 
                                         name="txtpassword" required>
 
-                                        <div class="form-group">
-                                        <input id="verPassword" type="checkbox" onclick="showPassword();">
-                                        <label for="verPassword">Ver Contraseña</label>  
-                                        </div>
                                     </div>
-                                   
- 
-                                      
-                               
-                                    <div class="col-md-8">
-                                        <div class="check-box">
-                                            <input type="checkbox" id="remember_me" name="remember_me" onclick="setcookie()">
-                                            <label for="remember_me">Recordar Cuenta</label>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-group">
+                                                <input id="verPassword" type="checkbox" onclick="showPassword();">
+                                                <label for="verPassword">Ver Contraseña</label>  
+                                            </div>
                                         </div>
-                                    </div>
-
- 
-                                    <div class="col-md-4">
+                                        <div class="col col-4">
                                         <div class="forgotton-password_info">
                                             <a href="procesos/emailPHP/enviarEmail.php"> Contraseña olvidada?</a>
                                         </div>
+                                        </div>
                                     </div>
-                                    
                                     <div class="col-md-12">
                                         <button class="login_btn" id="loginbtn1" type="button">Acceso</button>
                                     </div>
